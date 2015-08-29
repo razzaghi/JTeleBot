@@ -1,0 +1,11 @@
+project.ext.set("projectName", "TelegramBots4Java")
+
+subprojects {
+
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+
+}
