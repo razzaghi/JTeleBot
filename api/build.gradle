@@ -1,11 +1,6 @@
 
 archivesBaseName = project.projectName
 
-test {
-    if (System.getenv("TOKEN") == null || System.getenv("CHAT_ID") == null)
-        exclude 'co/vandenham/telegram/botapi/requests/*'
-}
-
 task copyDocs(type: Copy) {
     from 'build/docs/javadoc'
     into '../docs'

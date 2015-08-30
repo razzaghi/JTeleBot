@@ -1,4 +1,4 @@
-project.ext.set("projectName", "TelegramBots4Java")
+project.ext.set("projectName", "Jamejam Telegram Bot")
 
 subprojects {
 

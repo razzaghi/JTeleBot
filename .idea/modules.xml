@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EchoBot/EchoBot.iml" filepath="$PROJECT_DIR$/EchoBot/EchoBot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GMTBot/GMTBot.iml" filepath="$PROJECT_DIR$/GMTBot/GMTBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JBot/JBot.iml" filepath="$PROJECT_DIR$/JBot/JBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JTeleBot.iml" filepath="$PROJECT_DIR$/JTeleBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jamejam Telegram Bot.iml" filepath="$PROJECT_DIR$/Jamejam Telegram Bot.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/telegram-bots-java-api.iml" filepath="$PROJECT_DIR$/telegram-bots-java-api.iml" />
     </modules>
   </component>
 </project>
