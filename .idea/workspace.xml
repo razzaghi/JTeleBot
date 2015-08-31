@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655b81d0-390b-49bc-82d3-077c207fb897" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JBot/build/classes/main/com/jamejam/bot/JBot.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" afterPath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -144,14 +143,14 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7508834">
-              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state vertical-scroll-proportion="-3.934629">
+              <caret line="102" column="53" selection-start-line="102" selection-start-column="53" selection-end-line="102" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1244#1245#0" expanded="true" />
                 <element signature="e#1291#1292#0" expanded="true" />
-                <element signature="e#3522#3523#0" expanded="true" />
-                <element signature="e#3573#3574#0" expanded="true" />
+                <element signature="e#3530#3531#0" expanded="true" />
+                <element signature="e#3581#3582#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1301,7 +1300,7 @@
       <updated>1440858577763</updated>
       <workItem from="1440858591252" duration="6688000" />
       <workItem from="1440915829101" duration="20916000" />
-      <workItem from="1441005895473" duration="2208000" />
+      <workItem from="1441005895473" duration="2287000" />
     </task>
     <task id="LOCAL-00001" summary="Complete Bot">
       <created>1440942542760</created>
@@ -1321,11 +1320,17 @@
       <option name="project" value="LOCAL" />
       <updated>1441010016032</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix some issue">
+      <created>1441010164233</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1441010164233</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29812000" />
+    <option name="totallyTimeSpent" value="29891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1394,8 +1399,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1244#1245#0" expanded="true" />
             <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#3522#3523#0" expanded="true" />
-            <element signature="e#3573#3574#0" expanded="true" />
+            <element signature="e#3530#3531#0" expanded="true" />
+            <element signature="e#3581#3582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1450,8 +1455,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1244#1245#0" expanded="true" />
             <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#3522#3523#0" expanded="true" />
-            <element signature="e#3573#3574#0" expanded="true" />
+            <element signature="e#3530#3531#0" expanded="true" />
+            <element signature="e#3581#3582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1603,14 +1608,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7508834">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        <state vertical-scroll-proportion="-3.934629">
+          <caret line="102" column="53" selection-start-line="102" selection-start-column="53" selection-end-line="102" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1244#1245#0" expanded="true" />
             <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#3522#3523#0" expanded="true" />
-            <element signature="e#3573#3574#0" expanded="true" />
+            <element signature="e#3530#3531#0" expanded="true" />
+            <element signature="e#3581#3582#0" expanded="true" />
           </folding>
         </state>
       </provider>

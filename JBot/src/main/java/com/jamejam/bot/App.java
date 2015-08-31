@@ -100,7 +100,7 @@ public class App extends TelegramBot {
         switch (serviceCode) {
             case "-1":
 //                sendCommandForMenu(message, "لطفا گزینه مورد نظر را انتخاب کنید", Constants.menuItemLbl);
-                sendCommandForMenu(message, "", Constants.menuItemLbl);
+                sendCommandForMenu(message, "منوی بات", Constants.menuItemLbl);
                 break;
             default:
                 getLastFromService(message, serviceCode);
