@@ -8,6 +8,7 @@ import co.vandenham.telegram.botapi.types.Message;
 import co.vandenham.telegram.botapi.types.ReplyKeyboardMarkup;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import sun.rmi.runtime.Log;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -50,7 +51,7 @@ public class App extends TelegramBot {
                 iNews(message);
                 break;
             case "menu":
-                sendCommandForMenu(message, "لطفا گزینه مورد نظر را انتخاب کنید", Constants.menuItemLbl);
+                sendCommandForMenu(message, "", Constants.menuItemLbl);
                 break;
             default:
                 handleText(message);
@@ -63,7 +64,7 @@ public class App extends TelegramBot {
         String menuCode = getMenuCode(message.getText());
         String serviceCode = getServiceCode(message.getText());
 
-        System.out.print(m+"\r\n");
+        System.out.print(m + "\r\n");
         if(!menuCode.equals("")){
             handleMenu(message);
         }else if(!serviceCode.equals("")){
@@ -86,7 +87,7 @@ public class App extends TelegramBot {
                 iNews(message);
                 break;
             case "serviceTable":
-                sendCommandForMenu(message, "لطفا گزینه مورد نظر را انتخاب کنید", Constants.servicesNameTable);
+                sendCommandForMenu(message, "", Constants.servicesNameTable);
                 break;
             default:
                 handleText(message);
@@ -98,7 +99,8 @@ public class App extends TelegramBot {
         String serviceCode = getServiceCode(message.getText());
         switch (serviceCode) {
             case "-1":
-                sendCommandForMenu(message, "لطفا گزینه مورد نظر را انتخاب کنید", Constants.menuItemLbl);
+//                sendCommandForMenu(message, "لطفا گزینه مورد نظر را انتخاب کنید", Constants.menuItemLbl);
+                sendCommandForMenu(message, "", Constants.menuItemLbl);
                 break;
             default:
                 getLastFromService(message, serviceCode);
@@ -107,11 +109,14 @@ public class App extends TelegramBot {
 
 
     public void handleText(Message message) {
-        sendText(message, "لطفا از منو انتخاب نمایید");
+        System.out.print(message.getText());
     }
+//        sendText(message, "لطفا از منو انتخاب نمایید");
+//    }
 
     public void fairText(Message message) {
-        sendText(message, "لطفا از منو انتخاب نمایید");
+        System.out.print(message.getText());
+//     sendText(message, "لطفا از منو انتخاب نمایید");
     }
 
     String getServiceCode(String t) {
@@ -171,7 +176,7 @@ public class App extends TelegramBot {
             assert in != null;
             in.close();
         } catch (Exception e) {
-            throw new RuntimeException("Exception while calling URL:" + myURL, e);
+            System.out.print("خطا در بازیابی اطلاعات");
         }
 
         return sb.toString();
@@ -185,12 +190,16 @@ public class App extends TelegramBot {
             JSONArray jsonArray = new JSONArray(resutl);
 
             int count = jsonArray.length(); // get totalCount of all jsonObjects
-            for (int i = 0; i < count; i++) {   // iterate through jsonArray
-                JSONObject jsonObject = jsonArray.getJSONObject(i);  // get jsonObject @ i position
-                url = jsonObject.getString("Url").replace("www.jamejamonline", "jjo");
-                url = url.replace("jamejamonline", "jjo");
-                String messageText = jsonObject.getString("Title") + "\r\n" + url;
-                sendText(message, messageText);
+            if(count>0){
+                for (int i = 0; i < count; i++) {   // iterate through jsonArray
+                    JSONObject jsonObject = jsonArray.getJSONObject(i);  // get jsonObject @ i position
+                    url = jsonObject.getString("Url").replace("www.jamejamonline", "jjo");
+                    url = url.replace("jamejamonline", "jjo");
+                    String messageText = jsonObject.getString("Title") + "\r\n" + url;
+                    sendText(message, messageText);
+                }
+            }else{
+                sendText(message,"اخباری یافت نشد ، لطفا چند دقیقه بعد تلاش کنید");
             }
 
         } catch (Exception e) {
@@ -223,7 +232,7 @@ public class App extends TelegramBot {
     void sendText(Message message, String text) {
         OptionalArgs optionalArgs = new OptionalArgs();
         optionalArgs.disableWebPagePreview();
-        sendMessage(message.getChat().getId(), "@jjoBot \r\n http://jjo.ir \n" + text, optionalArgs);
+        sendMessage(message.getChat().getId(), text, optionalArgs);
     }
 
     void sendCommandForMenu(Message message, String text, String[] reply_markup) {
