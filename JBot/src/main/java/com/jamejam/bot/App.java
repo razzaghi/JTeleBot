@@ -51,7 +51,7 @@ public class App extends TelegramBot {
                 iNews(message);
                 break;
             case "menu":
-                sendCommandForMenu(message, "", Constants.menuItemLbl);
+                sendCommandForMenu(message, "منو", Constants.menuItemLbl);
                 break;
             default:
                 handleText(message);
@@ -87,7 +87,7 @@ public class App extends TelegramBot {
                 iNews(message);
                 break;
             case "serviceTable":
-                sendCommandForMenu(message, "", Constants.servicesNameTable);
+                sendCommandForMenu(message, "سرویس های برگزیده", Constants.servicesNameTable);
                 break;
             default:
                 handleText(message);
