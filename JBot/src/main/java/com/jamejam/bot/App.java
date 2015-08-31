@@ -195,6 +195,7 @@ public class App extends TelegramBot {
                     JSONObject jsonObject = jsonArray.getJSONObject(i);  // get jsonObject @ i position
                     url = jsonObject.getString("SUrl").replace("www.jamejamonline", "jjo");
                     url = url.replace("jamejamonline", "jjo");
+                    url = url.replace("jjm", "jjo");
                     String messageText = jsonObject.getString("Title") + "\r\n" + url;
                     sendText(message, messageText);
                 }
