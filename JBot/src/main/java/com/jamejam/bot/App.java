@@ -218,8 +218,9 @@ public class App extends TelegramBot {
             int count = jsonArray.length(); // get totalCount of all jsonObjects
             for (int i = 0; i < count; i++) {   // iterate through jsonArray
                 JSONObject jsonObject = jsonArray.getJSONObject(i);  // get jsonObject @ i position
-                url = jsonObject.getString("Url").replace("www.jamejamonline", "jjo");
+                url = jsonObject.getString("SUrl").replace("www.jamejamonline", "jjo");
                 url = url.replace("jamejamonline", "jjo");
+                url = url.replace("jjm", "jjo");
                 String messageText = jsonObject.getString("Title") + "\r\n" + url;
                 sendText(message, messageText);
             }
