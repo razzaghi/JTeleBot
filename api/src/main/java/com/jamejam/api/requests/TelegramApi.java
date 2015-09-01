@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public final class TelegramApi {
 
-    public static final String API_URL = "https://api.telegram.org/api%s/%s";
+    public static final String API_URL = "https://api.telegram.org/bot%s/%s";
     private final String token;
 
     public TelegramApi(String token) {

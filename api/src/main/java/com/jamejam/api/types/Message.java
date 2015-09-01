@@ -211,7 +211,7 @@ public class Message {
     /**
      * <i>Optional.</i>
      *
-     * @return A new member was added to the group, information about them (this member may be api itself)
+     * @return A new member was added to the group, information about them (this member may be bot itself)
      */
     public User getNewChatParticipant() {
         return newChatParticipant;
@@ -220,7 +220,7 @@ public class Message {
     /**
      * <i>Optional.</i>
      *
-     * @return A member was removed from the group, information about them (this member may be api itself)
+     * @return A member was removed from the group, information about them (this member may be bot itself)
      */
     public User getLeftChatParticipant() {
         return leftChatParticipant;

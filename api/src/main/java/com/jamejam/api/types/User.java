@@ -4,7 +4,7 @@ package com.jamejam.api.types;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * This object represents a Telegram user or api.
+ * This object represents a Telegram user or bot.
  *
  * Any getters labeled <i>optional</i> might return a default value (such as {@code null}).
  *
@@ -39,14 +39,14 @@ public class User {
     }
 
     /**
-     * @return Unique identifier for this user or api
+     * @return Unique identifier for this user or bot
      */
     public int getId() {
         return id;
     }
 
     /**
-     * @return User‘s or api’s first name
+     * @return User‘s or bot’s first name
      */
     public String getFirstName() {
         return firstName;
@@ -55,7 +55,7 @@ public class User {
     /**
      * <i>Optional.</i>
      *
-     * @return User‘s or api’s last name
+     * @return User‘s or bot’s last name
      */
     public String getLastName() {
         return lastName;
@@ -64,7 +64,7 @@ public class User {
     /**
      * <i>Optional.</i>
      *
-     * @return User‘s or api’s username
+     * @return User‘s or bot’s username
      */
     public String getUsername() {
         return username;

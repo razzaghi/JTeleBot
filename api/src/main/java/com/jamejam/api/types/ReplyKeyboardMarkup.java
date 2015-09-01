@@ -26,7 +26,7 @@ public class ReplyKeyboardMarkup implements ReplyMarkup {
     @SerializedName("selective")
     private boolean selective;
 
-    public ReplyKeyboardMarkup(Builder builder) {
+    private ReplyKeyboardMarkup(Builder builder) {
         keyboard = builder.keyboard;
         resizeKeyboard = builder.resizeKeyboard;
         oneTimeKeyboard = builder.oneTimeKeyboard;
@@ -129,10 +129,10 @@ public class ReplyKeyboardMarkup implements ReplyMarkup {
          * Use this parameter if you want to show the keyboard to specific users only.
          * Targets:
          *      1) users that are @mentioned in the text of the Message object;
-         *      2) if the api's message is a reply (has reply_to_message_id), sender of the original message.
+         *      2) if the bot's message is a reply (has reply_to_message_id), sender of the original message.
          *
-         * Example: A user requests to change the api‘s language,
-         * api replies to the request with a keyboard to select the new language.
+         * Example: A user requests to change the bot‘s language,
+         * bot replies to the request with a keyboard to select the new language.
          * Other users in the group don’t see the keyboard.
          *
          * @return This Builder instance, to allow method chaining.

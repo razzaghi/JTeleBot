@@ -1,5 +1,6 @@
 package com.jamejam.api;
 
+
 import com.jamejam.api.requests.ApiResponse;
 import com.jamejam.api.requests.ChatAction;
 import com.jamejam.api.requests.OptionalArgs;

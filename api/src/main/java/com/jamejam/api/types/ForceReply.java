@@ -4,10 +4,10 @@ import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * Upon receiving a message with this object, Telegram clients will display a reply interface to the user (act as if the user has selected the api's message and tapped 'Reply').
+ * Upon receiving a message with this object, Telegram clients will display a reply interface to the user (act as if the user has selected the bot's message and tapped 'Reply').
  * This can be extremely useful if you want to create user-friendly step-by-step interfaces without having to sacrifice privacy mode.
  *
- * See {@link com.jamejam.api.requests.OptionalArgs} to see how to pass this class as an argument.
+ * See {@link co.vandenham.telegram.botapi.requests.OptionalArgs} to see how to pass this class as an argument.
  *
  * @see <a href="https://core.telegram.org/bots/api#forcereply>https://core.telegram.org/bots/api#forcereply</a>
  */

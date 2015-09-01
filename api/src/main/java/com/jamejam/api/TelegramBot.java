@@ -1,5 +1,6 @@
 package com.jamejam.api;
 
+
 import com.jamejam.api.requests.*;
 import com.jamejam.api.types.Message;
 import com.jamejam.api.types.Update;
@@ -46,10 +47,10 @@ abstract public class TelegramBot {
 
     /**
      * Constructs a TelegramBot using the provided {@code botToken}, If {@code sendAsync} is {@code true},
-     * the api invokes all {@code sendXXX} methods asynchronously.
+     * the bot invokes all {@code sendXXX} methods asynchronously.
      *
      * @param botToken The token provided by @BotFather
-     * @param sendAsync Whether this api should invoke {@code sendXXX} methods asynchronously.
+     * @param sendAsync Whether this bot should invoke {@code sendXXX} methods asynchronously.
      */
     public TelegramBot(String botToken, boolean sendAsync) {
         api = new TelegramApi(botToken);
@@ -58,13 +59,13 @@ abstract public class TelegramBot {
     }
 
     /**
-     * Starts the api.
+     * Starts the bot.
      *
-     * First, it instantiates a {@link java.util.concurrent.ExecutorService} by calling {@link TelegramBot#provideExecutorService()}.
+     * First, it instantiates a {@link ExecutorService} by calling {@link TelegramBot#provideExecutorService()}.
      * If this instance is constructed with {@code sendAsync} set to {@code true}, it instantiates a asynchronous {@link ApiRequestExecutor},
      * otherwise a synchronous version is used.
      *
-     * After this, a polling {@link java.lang.Thread} is instantiated and the api starts polling the Telegram API.
+     * After this, a polling {@link Thread} is instantiated and the bot starts polling the Telegram API.
      */
     public final void start() {
         logger.info("Starting");
@@ -85,7 +86,7 @@ abstract public class TelegramBot {
     }
 
     /**
-     * Stops the api and joins the polling {@link Thread}.
+     * Stops the bot and joins the polling {@link Thread}.
      */
     public final void stop() {
         running.set(false);
@@ -105,7 +106,7 @@ abstract public class TelegramBot {
     /**
      * Instantiates and returns an {@link ExecutorService}.
      *
-     * By default, {@link java.util.concurrent.Executors#newCachedThreadPool()} is used.
+     * By default, {@link Executors#newCachedThreadPool()} is used.
      * This method can safely be overridden to adjust this behaviour.
      * This method can safely be overridden to return null, but if you decide to do so, {@link TelegramBot#notifyNewMessages(List)}
      * <b>must</b> be overridden to avoid a NPE.
@@ -131,11 +132,11 @@ abstract public class TelegramBot {
     }
 
     /**
-     * A simple method for testing your api's auth token. Requires no parameters. Returns basic information about the api in form of a User object.
+     * A simple method for testing your bot's auth token. Requires no parameters. Returns basic information about the bot in form of a User object.
      *
      * @see <a href="https://core.telegram.org/bots/api#getme">https://core.telegram.org/bots/api#getme</a>
      *
-     * @return this api's information, in the form of a {@code User} wrapped in a {@code ApiResponse}
+     * @return this bot's information, in the form of a {@code User} wrapped in a {@code ApiResponse}
      */
     public final ApiResponse<User> getMe() {
         return requestExecutor.execute(api, new GetMeRequest());
@@ -180,7 +181,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#sendaudio">https://core.telegram.org/bots/api#sendaudio</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam..api.types.GroupChat} id
      * @param audioFile Audio {@link File} to send
      * @param optionalArgs Any optional arguments for this method
      * @return The sent {@link Message}
@@ -206,12 +207,12 @@ abstract public class TelegramBot {
     }
 
     /**
-     * Use this method when you need to tell the user that something is happening on the api's side.
-     * The status is set for 5 seconds or less (when a message arrives from your api, Telegram clients clear its typing status).
+     * Use this method when you need to tell the user that something is happening on the bot's side.
+     * The status is set for 5 seconds or less (when a message arrives from your bot, Telegram clients clear its typing status).
      *
      * @see <a href="https://core.telegram.org/bots/api#sendchataction">https://core.telegram.org/bots/api#sendchataction</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id.
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id.
      * @param chatAction The target {@link ChatAction}
      * @return True if the request was successful
      */
@@ -234,7 +235,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#senddocument">https://core.telegram.org/bots/api#senddocument</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id
      * @param documentFile File to send
      * @param optionalArgs Any optional arguments
      * @return The sent {@link Message}
@@ -273,7 +274,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#sendlocation">https://core.telegram.org/bots/api#sendlocation</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id
      * @param latitude Latitude of location
      * @param longitude Longitude of location
      * @param optionalArgs Any optional arguments
@@ -297,7 +298,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#sendmessage">https://core.telegram.org/bots/api#sendmessage</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id
      * @param text Text of the message to be sent
      * @param optionalArgs Any optional arguments
      * @return the sent {@link Message}
@@ -318,7 +319,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#sendphoto">https://core.telegram.org/bots/api#sendphoto</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id
      * @param photoFile Photo to send
      * @param optionalArgs Any optional arguments
      * @return The sent {@link Message}
@@ -357,7 +358,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#sendsticker">https://core.telegram.org/bots/api#sendsticker</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id
      * @param stickerFile Sticker to send.
      * @param optionalArgs Any optional arguments
      * @return The sent {@link Message}
@@ -398,7 +399,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#sendvideo">https://core.telegram.org/bots/api#sendvideo</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id
      * @param videoFile Video to send
      * @param optionalArgs Any optional arguments.
      * @return The sent {@link Message}

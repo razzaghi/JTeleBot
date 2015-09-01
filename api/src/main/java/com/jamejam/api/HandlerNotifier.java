@@ -1,5 +1,6 @@
 package com.jamejam.api;
 
+
 import com.jamejam.api.types.Message;
 
 import java.lang.reflect.InvocationTargetException;
