@@ -86,7 +86,7 @@
 <li><a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>co.vandenham.telegram.botapi.ChatContext</li>
+<li>com.jamejam.api.ChatContext</li>
 </ul>
 </li>
 </ul>
@@ -134,7 +134,7 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <th class="colLast" scope="col">Method and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#forwardMessage(int,%20int,%20int)">forwardMessage</a></strong>(int&nbsp;fromChatId,
               int&nbsp;toChatId,
               int&nbsp;messageId)</code>&nbsp;</td>
@@ -144,21 +144,21 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#getChatId()">getChatId</a></strong>()</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/User.html" title="class in co.vandenham.telegram.botapi.types">User</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/User.html" title="class in com.jamejam.api.types">User</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#getMe()">getMe</a></strong>()</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/UserProfilePhotos.html" title="class in co.vandenham.telegram.botapi.types">UserProfilePhotos</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/UserProfilePhotos.html" title="class in com.jamejam.api.types">UserProfilePhotos</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#getUserProfilePhotos(int)">getUserProfilePhotos</a></strong>(int&nbsp;userId)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/UserProfilePhotos.html" title="class in co.vandenham.telegram.botapi.types">UserProfilePhotos</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/UserProfilePhotos.html" title="class in com.jamejam.api.types">UserProfilePhotos</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#getUserProfilePhotos(int,%20co.vandenham.telegram.botapi.requests.OptionalArgs)">getUserProfilePhotos</a></strong>(int&nbsp;userId,
-                    <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
+                    <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>protected void</code></td>
-<td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#onMessage(co.vandenham.telegram.botapi.types.Message)">onMessage</a></strong>(<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&nbsp;message)</code>&nbsp;</td>
+<td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#onMessage(com.jamejam.api.types.Message)">onMessage</a></strong>(<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&nbsp;message)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
@@ -170,126 +170,126 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#passMessage(co.vandenham.telegram.botapi.types.Message)">passMessage</a></strong>(<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&nbsp;message)</code>&nbsp;</td>
+<td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#passMessage(com.jamejam.api.types.Message)">passMessage</a></strong>(<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&nbsp;message)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
-<td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#replyTo(co.vandenham.telegram.botapi.types.Message,%20java.lang.String)">replyTo</a></strong>(<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&nbsp;message,
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#replyTo(com.jamejam.api.types.Message,%20java.lang.String)">replyTo</a></strong>(<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&nbsp;message,
        <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendAudio(java.io.File)">sendAudio</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;audioFile)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendAudio(java.io.File,%20co.vandenham.telegram.botapi.requests.OptionalArgs)">sendAudio</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;audioFile,
-         <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
+         <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendAudio(java.lang.String)">sendAudio</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;audioFileId)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendAudio(java.lang.String,%20co.vandenham.telegram.botapi.requests.OptionalArgs)">sendAudio</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;audioFileId,
-         <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
+         <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Boolean.html?is-external=true" title="class or interface in java.lang">Boolean</a>&gt;</code></td>
-<td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendChatAction(co.vandenham.telegram.botapi.requests.ChatAction)">sendChatAction</a></strong>(<a href="../../../../co/vandenham/telegram/botapi/requests/ChatAction.html" title="enum in co.vandenham.telegram.botapi.requests">ChatAction</a>&nbsp;chatAction)</code>&nbsp;</td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Boolean.html?is-external=true" title="class or interface in java.lang">Boolean</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendChatAction(com.jamejam.api.requests.ChatAction)">sendChatAction</a></strong>(<a href="../../../../co/vandenham/telegram/botapi/requests/ChatAction.html" title="enum in com.jamejam.api.requests">ChatAction</a>&nbsp;chatAction)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendDocument(java.io.File)">sendDocument</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;documentFile)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendDocument(java.io.File,%20co.vandenham.telegram.botapi.requests.OptionalArgs)">sendDocument</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;documentFile,
-            <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
+            <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendDocument(java.lang.String)">sendDocument</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;documentFileId)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendDocument(java.lang.String,%20co.vandenham.telegram.botapi.requests.OptionalArgs)">sendDocument</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;documentFileId,
-            <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
+            <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendLocation(float,%20float)">sendLocation</a></strong>(float&nbsp;latitude,
             float&nbsp;longitude)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendLocation(float,%20float,%20co.vandenham.telegram.botapi.requests.OptionalArgs)">sendLocation</a></strong>(float&nbsp;latitude,
             float&nbsp;longitude,
-            <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
+            <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendMessage(java.lang.String)">sendMessage</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendMessage(java.lang.String,%20co.vandenham.telegram.botapi.requests.OptionalArgs)">sendMessage</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text,
-           <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
+           <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendPhoto(java.io.File)">sendPhoto</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;photoFile)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendPhoto(java.io.File,%20co.vandenham.telegram.botapi.requests.OptionalArgs)">sendPhoto</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;photoFile,
-         <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
+         <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendPhoto(java.lang.String)">sendPhoto</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;photoFileId)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendPhoto(java.lang.String,%20co.vandenham.telegram.botapi.requests.OptionalArgs)">sendPhoto</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;photoFileId,
-         <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
+         <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendSticker(java.io.File)">sendSticker</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;stickerFile)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendSticker(java.io.File,%20co.vandenham.telegram.botapi.requests.OptionalArgs)">sendSticker</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;stickerFile,
-           <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
+           <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendSticker(java.lang.String)">sendSticker</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;stickerFileId)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendSticker(java.lang.String,%20co.vandenham.telegram.botapi.requests.OptionalArgs)">sendSticker</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;stickerFileId,
-           <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
+           <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendVideo(java.io.File)">sendVideo</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;videoFile)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendVideo(java.io.File,%20co.vandenham.telegram.botapi.requests.OptionalArgs)">sendVideo</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;videoFile,
-         <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
+         <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendVideo(java.lang.String)">sendVideo</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;videoFileId)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;</code></td>
+<td class="colFirst"><code><a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;</code></td>
 <td class="colLast"><code><strong><a href="../../../../co/vandenham/telegram/botapi/ChatContext.html#sendVideo(java.lang.String,%20co.vandenham.telegram.botapi.requests.OptionalArgs)">sendVideo</a></strong>(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;videoFileId,
-         <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
+         <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</code>&nbsp;</td>
 </tr>
 </table>
 <ul class="blockList">
@@ -313,7 +313,7 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <!--   -->
 </a>
 <h3>Constructor Detail</h3>
-<a name="ChatContext(int, co.vandenham.telegram.botapi.TelegramBot)">
+<a name="ChatContext(int, com.jamejam.api.TelegramBot)">
 <!--   -->
 </a>
 <ul class="blockListLast">
@@ -331,13 +331,13 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a name="passMessage(co.vandenham.telegram.botapi.types.Message)">
+<a name="passMessage(com.jamejam.api.types.Message)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>passMessage</h4>
-<pre>public final&nbsp;void&nbsp;passMessage(<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&nbsp;message)</pre>
+<pre>public final&nbsp;void&nbsp;passMessage(<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&nbsp;message)</pre>
 </li>
 </ul>
 <a name="onStart()">
@@ -358,13 +358,13 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <pre>public&nbsp;void&nbsp;onStop()</pre>
 </li>
 </ul>
-<a name="onMessage(co.vandenham.telegram.botapi.types.Message)">
+<a name="onMessage(com.jamejam.api.types.Message)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onMessage</h4>
-<pre>protected&nbsp;void&nbsp;onMessage(<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&nbsp;message)</pre>
+<pre>protected&nbsp;void&nbsp;onMessage(<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&nbsp;message)</pre>
 </li>
 </ul>
 <a name="forwardMessage(int, int, int)">
@@ -373,7 +373,7 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>forwardMessage</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;forwardMessage(int&nbsp;fromChatId,
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;forwardMessage(int&nbsp;fromChatId,
                                   int&nbsp;toChatId,
                                   int&nbsp;messageId)</pre>
 </li>
@@ -384,7 +384,7 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>getMe</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/User.html" title="class in co.vandenham.telegram.botapi.types">User</a>&gt;&nbsp;getMe()</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/User.html" title="class in com.jamejam.api.types">User</a>&gt;&nbsp;getMe()</pre>
 </li>
 </ul>
 <a name="getUserProfilePhotos(int)">
@@ -393,17 +393,17 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>getUserProfilePhotos</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/UserProfilePhotos.html" title="class in co.vandenham.telegram.botapi.types">UserProfilePhotos</a>&gt;&nbsp;getUserProfilePhotos(int&nbsp;userId)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/UserProfilePhotos.html" title="class in com.jamejam.api.types">UserProfilePhotos</a>&gt;&nbsp;getUserProfilePhotos(int&nbsp;userId)</pre>
 </li>
 </ul>
-<a name="getUserProfilePhotos(int, co.vandenham.telegram.botapi.requests.OptionalArgs)">
+<a name="getUserProfilePhotos(int, com.jamejam.api.requests.OptionalArgs)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>getUserProfilePhotos</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/UserProfilePhotos.html" title="class in co.vandenham.telegram.botapi.types">UserProfilePhotos</a>&gt;&nbsp;getUserProfilePhotos(int&nbsp;userId,
-                                                  <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/UserProfilePhotos.html" title="class in com.jamejam.api.types">UserProfilePhotos</a>&gt;&nbsp;getUserProfilePhotos(int&nbsp;userId,
+                                                  <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
 </li>
 </ul>
 <a name="sendAudio(java.io.File)">
@@ -412,17 +412,17 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>sendAudio</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendAudio(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;audioFile)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendAudio(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;audioFile)</pre>
 </li>
 </ul>
-<a name="sendAudio(java.io.File, co.vandenham.telegram.botapi.requests.OptionalArgs)">
+<a name="sendAudio(java.io.File, com.jamejam.api.requests.OptionalArgs)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>sendAudio</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendAudio(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;audioFile,
-                             <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendAudio(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;audioFile,
+                             <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
 </li>
 </ul>
 <a name="sendAudio(java.lang.String)">
@@ -431,26 +431,26 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>sendAudio</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendAudio(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;audioFileId)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendAudio(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;audioFileId)</pre>
 </li>
 </ul>
-<a name="sendAudio(java.lang.String, co.vandenham.telegram.botapi.requests.OptionalArgs)">
+<a name="sendAudio(java.lang.String, com.jamejam.api.requests.OptionalArgs)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>sendAudio</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendAudio(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;audioFileId,
-                             <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendAudio(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;audioFileId,
+                             <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
 </li>
 </ul>
-<a name="sendChatAction(co.vandenham.telegram.botapi.requests.ChatAction)">
+<a name="sendChatAction(com.jamejam.api.requests.ChatAction)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>sendChatAction</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Boolean.html?is-external=true" title="class or interface in java.lang">Boolean</a>&gt;&nbsp;sendChatAction(<a href="../../../../co/vandenham/telegram/botapi/requests/ChatAction.html" title="enum in co.vandenham.telegram.botapi.requests">ChatAction</a>&nbsp;chatAction)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Boolean.html?is-external=true" title="class or interface in java.lang">Boolean</a>&gt;&nbsp;sendChatAction(<a href="../../../../co/vandenham/telegram/botapi/requests/ChatAction.html" title="enum in com.jamejam.api.requests">ChatAction</a>&nbsp;chatAction)</pre>
 </li>
 </ul>
 <a name="sendDocument(java.io.File)">
@@ -459,17 +459,17 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>sendDocument</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendDocument(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;documentFile)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendDocument(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;documentFile)</pre>
 </li>
 </ul>
-<a name="sendDocument(java.io.File, co.vandenham.telegram.botapi.requests.OptionalArgs)">
+<a name="sendDocument(java.io.File, com.jamejam.api.requests.OptionalArgs)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>sendDocument</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendDocument(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;documentFile,
-                                <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendDocument(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;documentFile,
+                                <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
 </li>
 </ul>
 <a name="sendDocument(java.lang.String)">
@@ -478,17 +478,17 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>sendDocument</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendDocument(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;documentFileId)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendDocument(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;documentFileId)</pre>
 </li>
 </ul>
-<a name="sendDocument(java.lang.String, co.vandenham.telegram.botapi.requests.OptionalArgs)">
+<a name="sendDocument(java.lang.String, com.jamejam.api.requests.OptionalArgs)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>sendDocument</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendDocument(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;documentFileId,
-                                <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendDocument(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;documentFileId,
+                                <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
 </li>
 </ul>
 <a name="sendLocation(float, float)">
@@ -497,19 +497,19 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>sendLocation</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendLocation(float&nbsp;latitude,
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendLocation(float&nbsp;latitude,
                                 float&nbsp;longitude)</pre>
 </li>
 </ul>
-<a name="sendLocation(float, float, co.vandenham.telegram.botapi.requests.OptionalArgs)">
+<a name="sendLocation(float, float, com.jamejam.api.requests.OptionalArgs)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>sendLocation</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendLocation(float&nbsp;latitude,
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendLocation(float&nbsp;latitude,
                                 float&nbsp;longitude,
-                                <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
+                                <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
 </li>
 </ul>
 <a name="sendMessage(java.lang.String)">
@@ -518,17 +518,17 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>sendMessage</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendMessage(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendMessage(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text)</pre>
 </li>
 </ul>
-<a name="sendMessage(java.lang.String, co.vandenham.telegram.botapi.requests.OptionalArgs)">
+<a name="sendMessage(java.lang.String, com.jamejam.api.requests.OptionalArgs)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>sendMessage</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendMessage(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text,
-                               <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendMessage(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text,
+                               <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
 </li>
 </ul>
 <a name="sendPhoto(java.io.File)">
@@ -537,17 +537,17 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>sendPhoto</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendPhoto(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;photoFile)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendPhoto(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;photoFile)</pre>
 </li>
 </ul>
-<a name="sendPhoto(java.io.File, co.vandenham.telegram.botapi.requests.OptionalArgs)">
+<a name="sendPhoto(java.io.File, com.jamejam.api.requests.OptionalArgs)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>sendPhoto</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendPhoto(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;photoFile,
-                             <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendPhoto(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;photoFile,
+                             <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
 </li>
 </ul>
 <a name="sendPhoto(java.lang.String)">
@@ -556,17 +556,17 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>sendPhoto</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendPhoto(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;photoFileId)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendPhoto(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;photoFileId)</pre>
 </li>
 </ul>
-<a name="sendPhoto(java.lang.String, co.vandenham.telegram.botapi.requests.OptionalArgs)">
+<a name="sendPhoto(java.lang.String, com.jamejam.api.requests.OptionalArgs)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>sendPhoto</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendPhoto(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;photoFileId,
-                             <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendPhoto(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;photoFileId,
+                             <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
 </li>
 </ul>
 <a name="sendSticker(java.io.File)">
@@ -575,17 +575,17 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>sendSticker</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendSticker(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;stickerFile)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendSticker(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;stickerFile)</pre>
 </li>
 </ul>
-<a name="sendSticker(java.io.File, co.vandenham.telegram.botapi.requests.OptionalArgs)">
+<a name="sendSticker(java.io.File, com.jamejam.api.requests.OptionalArgs)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>sendSticker</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendSticker(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;stickerFile,
-                               <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendSticker(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;stickerFile,
+                               <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
 </li>
 </ul>
 <a name="sendSticker(java.lang.String)">
@@ -594,17 +594,17 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>sendSticker</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendSticker(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;stickerFileId)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendSticker(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;stickerFileId)</pre>
 </li>
 </ul>
-<a name="sendSticker(java.lang.String, co.vandenham.telegram.botapi.requests.OptionalArgs)">
+<a name="sendSticker(java.lang.String, com.jamejam.api.requests.OptionalArgs)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>sendSticker</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendSticker(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;stickerFileId,
-                               <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendSticker(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;stickerFileId,
+                               <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
 </li>
 </ul>
 <a name="sendVideo(java.io.File)">
@@ -613,17 +613,17 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>sendVideo</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendVideo(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;videoFile)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendVideo(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;videoFile)</pre>
 </li>
 </ul>
-<a name="sendVideo(java.io.File, co.vandenham.telegram.botapi.requests.OptionalArgs)">
+<a name="sendVideo(java.io.File, com.jamejam.api.requests.OptionalArgs)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>sendVideo</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendVideo(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;videoFile,
-                             <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendVideo(<a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;videoFile,
+                             <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
 </li>
 </ul>
 <a name="sendVideo(java.lang.String)">
@@ -632,26 +632,26 @@ extends <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html?
 <ul class="blockList">
 <li class="blockList">
 <h4>sendVideo</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendVideo(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;videoFileId)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendVideo(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;videoFileId)</pre>
 </li>
 </ul>
-<a name="sendVideo(java.lang.String, co.vandenham.telegram.botapi.requests.OptionalArgs)">
+<a name="sendVideo(java.lang.String, com.jamejam.api.requests.OptionalArgs)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>sendVideo</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;sendVideo(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;videoFileId,
-                             <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in co.vandenham.telegram.botapi.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;sendVideo(<a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;videoFileId,
+                             <a href="../../../../co/vandenham/telegram/botapi/requests/OptionalArgs.html" title="class in com.jamejam.api.requests">OptionalArgs</a>&nbsp;optionalArgs)</pre>
 </li>
 </ul>
-<a name="replyTo(co.vandenham.telegram.botapi.types.Message, java.lang.String)">
+<a name="replyTo(com.jamejam.api.types.Message, java.lang.String)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>replyTo</h4>
-<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in co.vandenham.telegram.botapi.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&gt;&nbsp;replyTo(<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in co.vandenham.telegram.botapi.types">Message</a>&nbsp;message,
+<pre>public&nbsp;<a href="../../../../co/vandenham/telegram/botapi/requests/ApiResponse.html" title="interface in com.jamejam.api.requests">ApiResponse</a>&lt;<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&gt;&nbsp;replyTo(<a href="../../../../co/vandenham/telegram/botapi/types/Message.html" title="class in com.jamejam.api.types">Message</a>&nbsp;message,
                            <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text)</pre>
 </li>
 </ul>

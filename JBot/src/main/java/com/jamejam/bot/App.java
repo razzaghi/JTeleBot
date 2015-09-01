@@ -1,14 +1,11 @@
 package com.jamejam.bot;
 
-import co.vandenham.telegram.botapi.CommandHandler;
-import co.vandenham.telegram.botapi.MessageHandler;
-import co.vandenham.telegram.botapi.TelegramBot;
-import co.vandenham.telegram.botapi.requests.OptionalArgs;
-import co.vandenham.telegram.botapi.types.Message;
-import co.vandenham.telegram.botapi.types.ReplyKeyboardMarkup;
+import com.jamejam.api.*;
+import com.jamejam.api.requests.OptionalArgs;
+import com.jamejam.api.types.Message;
+import com.jamejam.api.types.ReplyKeyboardMarkup;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import sun.rmi.runtime.Log;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -22,12 +19,13 @@ public class App extends TelegramBot {
     private static final Logger log = Logger.getLogger(App.class.getName());
 
     public App(boolean async) {
-        super(Constants.API_TOKEN, async);
+        super(com.jamejam.api.Constants.SBF_API_TOKEN, async);
+
     }
 
     public static void main(String[] args) {
         System.setProperty("file.encoding", "UTF-8");
-        TelegramBot bot = new App(true);
+        TelegramBot bot = new App(false);
         bot.start();
     }
 
@@ -51,7 +49,7 @@ public class App extends TelegramBot {
                 iNews(message);
                 break;
             case "menu":
-                sendCommandForMenu(message, "منو", Constants.menuItemLbl);
+                sendCommandForMenu(message, "منو", com.jamejam.api.Constants.menuItemLbl);
                 break;
             default:
                 handleText(message);
@@ -87,7 +85,7 @@ public class App extends TelegramBot {
                 iNews(message);
                 break;
             case "serviceTable":
-                sendCommandForMenu(message, "سرویس های برگزیده", Constants.servicesNameTable);
+                sendCommandForMenu(message, "سرویس های برگزیده", com.jamejam.api.Constants.servicesNameTable);
                 break;
             default:
                 handleText(message);
@@ -100,7 +98,7 @@ public class App extends TelegramBot {
         switch (serviceCode) {
             case "-1":
 //                sendCommandForMenu(message, "لطفا گزینه مورد نظر را انتخاب کنید", Constants.menuItemLbl);
-                sendCommandForMenu(message, "", Constants.menuItemLbl);
+                sendCommandForMenu(message, "", com.jamejam.api.Constants.menuItemLbl);
                 break;
             default:
                 getLastFromService(message, serviceCode);
@@ -123,7 +121,7 @@ public class App extends TelegramBot {
 
         boolean flag = false;
         int i = 0;
-        for (String s : Constants.servicesNameTable) {
+        for (String s : com.jamejam.api.Constants.servicesNameTable) {
             if (t.compareTo(s) == 0) {
                 flag = true;
                 break;
@@ -131,7 +129,7 @@ public class App extends TelegramBot {
             i++;
         }
         if (flag)
-            return Constants.servicesCodeTable[i];
+            return com.jamejam.api.Constants.servicesCodeTable[i];
         else
             return "";
     }
@@ -139,7 +137,7 @@ public class App extends TelegramBot {
     String getMenuCode(String t) {
         boolean flag = false;
         int i = 0;
-        for (String s : Constants.menuItemLbl) {
+        for (String s : com.jamejam.api.Constants.menuItemLbl) {
             if (t.compareTo(s) == 0) {
                 flag = true;
                 break;
@@ -147,7 +145,7 @@ public class App extends TelegramBot {
             i++;
         }
         if (flag)
-            return Constants.menuItem[i];
+            return com.jamejam.api.Constants.menuItem[i];
         else
             return "";
 
@@ -184,7 +182,7 @@ public class App extends TelegramBot {
 
 
     void getLastFromService(Message message, String serviceCode) {
-        String url = Constants.getLast.replaceAll("@code", serviceCode);
+        String url = com.jamejam.api.Constants.getLast.replaceAll("@code", serviceCode);
         try {
             String resutl = callURL(url);
             JSONArray jsonArray = new JSONArray(resutl);
@@ -209,7 +207,7 @@ public class App extends TelegramBot {
     }
 
     void getImportants(Message message) {
-        String url = Constants.getLast.replaceAll("@code", "-1");
+        String url = com.jamejam.api.Constants.getLast.replaceAll("@code", "-1");
         try {
             String resutl = callURL(url);
             JSONArray jsonArray = new JSONArray(resutl);

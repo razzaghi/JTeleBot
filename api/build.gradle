@@ -19,5 +19,10 @@ javadoc {
 dependencies {
     compile 'com.google.code.gson:gson:2.3.1'
     compile 'org.json:json:20090211'
-    testCompile 'junit:junit:4.+'
+    compile 'mysql:mysql-connector-java:5.1.13'
+    compile "com.j256.ormlite:ormlite-jdbc:4.45"
+    compile "com.j256.ormlite:ormlite-core:4.45"
+    compile 'org.glassfish.grizzly:grizzly-http-all:2.3.22'
+
+
 }

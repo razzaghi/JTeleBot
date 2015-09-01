@@ -1,9 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655b81d0-390b-49bc-82d3-077c207fb897" name="Default" comment="">
+    <list default="true" id="655b81d0-390b-49bc-82d3-077c207fb897" name="Default" comment="Merge remote-tracking branch 'remotes/origin/mongoDb'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;JBot/src/main/java/com/jamejam/bot/App.java&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JWebServer/src/main/java/com/jamejam/webserver/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/db/Db.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_j256_ormlite_ormlite_core_4_45.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_j256_ormlite_ormlite_jdbc_4_45.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__mysql_mysql_connector_java_5_1_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_comet_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_core_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_framework_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_http_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_http_ajp_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_http_all_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_http_server_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_http_server_core_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_http_server_multipart_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_http_servlet_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_npn_api_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_portunif_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_spdy_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_grizzly_grizzly_websockets_2_3_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JWebServer/JWebServer.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JWebServer/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/package-info.java" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\.idea\libraries\Gradle__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\.idea\libraries\Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\JBot\build\classes\main\com\jamejam\bot\Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\JBot\src\main\java\com\jamejam\bot\Constants.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\AbstractChatContextFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\ChatContext.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\ChatContextTelegramBot.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\CommandHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\DefaultHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\HandlerNotifier$CommandHandlerFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\HandlerNotifier$MessageFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\HandlerNotifier$MessageHandlerFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\HandlerNotifier.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\MessageHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\RegistrableTelegramBot$1.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\RegistrableTelegramBot$MessageListener.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\RegistrableTelegramBot.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\TelegramBot$1.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\TelegramBot$2.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\TelegramBot$UpdatePoller.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\TelegramBot.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiException.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequest$GetStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequest$MultipartStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequest$PostStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequest$RequestStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequest$ResultTypes$1.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequest$ResultTypes$2.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequest$ResultTypes$3.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequest$ResultTypes$4.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequest$ResultTypes$5.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequest$ResultTypes.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequestExecutor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequestExecutor$AsyncApiRequestExecutor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequestExecutor$AsyncApiRequestExecutor.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequestExecutor$AsyncApiResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequestExecutor$SyncApiRequestExecutor.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequestExecutor$SyncApiResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiRequestExecutor.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ApiResult.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ChatAction.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\ForwardMessageRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\GetMeRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\GetUpdatesRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\GetUserProfilePhotosRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\OptionalArgs.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\SendAudioRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\SendChatActionRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\SendDocumentRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\SendLocationRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\SendMessageRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\SendPhotoRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\SendStickerRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\SendVideoRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\TelegramApi$MultipartUtility.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\requests\TelegramApi.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\Audio.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\Chat.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\Contact.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\Document.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\ForceReply.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\GroupChat.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\Location.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\Message$Type.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\Message.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\PhotoSize.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\ReplyKeyboardHide.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\ReplyKeyboardMarkup$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\ReplyKeyboardMarkup.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\ReplyMarkup.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\Sticker.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\Update.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\User.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\UserProfilePhotos.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\build\classes\main\co\vandenham\telegram\botapi\types\Video.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\test\java\co\vandenham\telegram\botapi\requests\RequestTest.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\test\java\co\vandenham\telegram\botapi\requests\SendMessageRequestTest.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\test\java\co\vandenham\telegram\botapi\requests\SendPhotoRequestTest.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\test\java\co\vandenham\telegram\botapi\types\TypesTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/AbstractChatContextFactory.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/AbstractChatContextFactory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/ApiException.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/ApiException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/ApiRequestExecutor.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/ApiRequestExecutor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/ApiResponse.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/ApiResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/ApiResult.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/ApiResult.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" afterPath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Audio.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Audio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Chat.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Chat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/ChatAction.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/ChatAction.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/ChatContext.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/ChatContext.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/ChatContextTelegramBot.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/ChatContextTelegramBot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Contact.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Document.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Document.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/ForceReply.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/ForceReply.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/ForwardMessageRequest.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/ForwardMessageRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/GetMeRequest.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/GetMeRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/GetUpdatesRequest.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/GetUpdatesRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/GetUserProfilePhotosRequest.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/GetUserProfilePhotosRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/GroupChat.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/GroupChat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/HandlerNotifier.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/HandlerNotifier.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Location.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Location.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Message.Type.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Message.Type.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Message.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Message.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/MessageHandler.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/MessageHandler.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/OptionalArgs.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/OptionalArgs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/PhotoSize.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/PhotoSize.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/RegistrableTelegramBot.MessageListener.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/RegistrableTelegramBot.MessageListener.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/RegistrableTelegramBot.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/RegistrableTelegramBot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/ReplyKeyboardHide.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/ReplyKeyboardHide.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/ReplyKeyboardMarkup.Builder.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/ReplyKeyboardMarkup.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/ReplyKeyboardMarkup.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/ReplyKeyboardMarkup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/ReplyMarkup.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/ReplyMarkup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendAudioRequest.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendAudioRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendChatActionRequest.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendChatActionRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendDocumentRequest.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendDocumentRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendLocationRequest.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendLocationRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendMessageRequest.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendMessageRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendPhotoRequest.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendPhotoRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendStickerRequest.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendStickerRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendVideoRequest.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/SendVideoRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Sticker.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Sticker.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/TelegramApi.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/TelegramApi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/TelegramBot.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/TelegramBot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Update.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Update.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/User.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/User.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/UserProfilePhotos.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/UserProfilePhotos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Video.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/Video.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/allclasses-frame.html" afterPath="$PROJECT_DIR$/docs/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/docs/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api.iml" afterPath="$PROJECT_DIR$/api/api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JBot/build.gradle" afterPath="$PROJECT_DIR$/JBot/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/build.gradle" afterPath="$PROJECT_DIR$/api/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/constant-values.html" afterPath="$PROJECT_DIR$/docs/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index-all.html" afterPath="$PROJECT_DIR$/docs/index-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/overview-frame.html" afterPath="$PROJECT_DIR$/docs/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/overview-summary.html" afterPath="$PROJECT_DIR$/docs/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/overview-tree.html" afterPath="$PROJECT_DIR$/docs/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/package-frame.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/package-frame.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/package-list" afterPath="$PROJECT_DIR$/docs/package-list" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/package-summary.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/package-summary.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/package-tree.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/requests/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/package-tree.html" afterPath="$PROJECT_DIR$/docs/co/vandenham/telegram/botapi/types/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/serialized-form.html" afterPath="$PROJECT_DIR$/docs/serialized-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\AbstractChatContextFactory.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/AbstractChatContextFactory.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\ChatContext.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/ChatContext.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\ChatContextTelegramBot.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/ChatContextTelegramBot.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\CommandHandler.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/CommandHandler.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\DefaultHandler.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/DefaultHandler.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\HandlerNotifier.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/HandlerNotifier.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\MessageHandler.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/MessageHandler.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\RegistrableTelegramBot.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/RegistrableTelegramBot.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\TelegramBot.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/TelegramBot.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\ApiException.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/ApiException.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\ApiRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/ApiRequest.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\ApiRequestExecutor.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/ApiRequestExecutor.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\ApiResponse.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/ApiResponse.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\ApiResult.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/ApiResult.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\ChatAction.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/ChatAction.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\ForwardMessageRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/ForwardMessageRequest.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\GetMeRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/GetMeRequest.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\GetUpdatesRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/GetUpdatesRequest.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\GetUserProfilePhotosRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/GetUserProfilePhotosRequest.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\OptionalArgs.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/OptionalArgs.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\SendAudioRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendAudioRequest.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\SendChatActionRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendChatActionRequest.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\SendDocumentRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendDocumentRequest.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\SendLocationRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendLocationRequest.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\SendMessageRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendMessageRequest.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\SendPhotoRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendPhotoRequest.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\SendStickerRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendStickerRequest.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\SendVideoRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendVideoRequest.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\TelegramApi.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/TelegramApi.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\requests\package-info.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/package-info.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\Audio.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/Audio.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\Chat.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/Chat.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\Contact.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/Contact.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\Document.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/Document.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\ForceReply.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/ForceReply.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\GroupChat.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/GroupChat.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\Location.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/Location.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\Message.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/Message.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\PhotoSize.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/PhotoSize.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\ReplyKeyboardHide.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/ReplyKeyboardHide.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\ReplyKeyboardMarkup.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/ReplyKeyboardMarkup.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\ReplyMarkup.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/ReplyMarkup.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\Sticker.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/Sticker.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\Update.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/Update.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\User.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/User.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\UserProfilePhotos.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/UserProfilePhotos.java" />
+      <change type="MOVED" beforePath="F:\Projects\Telegram\Java\JTeleBot\api\src\main\java\co\vandenham\telegram\botapi\types\Video.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/Video.java" />
     </list>
     <ignored path="telegram-bots-java-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,6 +240,8 @@
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/JBot/.gradle/" />
     <ignored path="$PROJECT_DIR$/JBot/build/" />
+    <ignored path="$PROJECT_DIR$/JWebServer/.gradle/" />
+    <ignored path="$PROJECT_DIR$/JWebServer/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +266,9 @@
         <task path="$PROJECT_DIR$/JBot">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/api">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <PATH>
@@ -64,7 +291,7 @@
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="JTeleBot" />
+                <option name="myItemId" value=":api" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
               </PATH_ELEMENT>
             </PATH>
@@ -78,7 +305,25 @@
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
+                <option name="myItemId" value=":api" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Dependencies" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
                 <option name="myItemId" value="JTeleBot" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value=":api" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
@@ -96,29 +341,7 @@
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value="JTeleBot" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Tasks" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="other" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
-              </PATH_ELEMENT>
-            </PATH>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="JTeleBot" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="JTeleBot" />
+                <option name="myItemId" value=":api" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
@@ -128,6 +351,20 @@
               <PATH_ELEMENT>
                 <option name="myItemId" value="build" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="JTeleBot" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="JTeleBot" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
               </PATH_ELEMENT>
             </PATH>
           </tree_state>
@@ -140,17 +377,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6908127">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1244#1245#0" expanded="true" />
-                <element signature="e#1291#1292#0" expanded="true" />
-                <element signature="e#3517#3518#0" expanded="true" />
-                <element signature="e#3568#3569#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Db.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/db/Db.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1590#1591#0" expanded="true" />
+                <element signature="e#1619#1620#0" expanded="true" />
+                <element signature="e#1661#1662#0" expanded="true" />
+                <element signature="e#1697#1698#0" expanded="true" />
+                <element signature="e#1732#1733#0" expanded="true" />
+                <element signature="e#1762#1763#0" expanded="true" />
+                <element signature="e#1809#1810#0" expanded="true" />
+                <element signature="e#1847#1848#0" expanded="true" />
+                <marker date="1441123255173" expanded="true" signature="795:1006" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -160,7 +436,7 @@
         <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -170,20 +446,8 @@
         <entry file="file://$PROJECT_DIR$/api/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -192,7 +456,17 @@
         <entry file="file://$PROJECT_DIR$/JBot/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JWebServer/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.39045936">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -237,6 +511,10 @@
           </key>
           <value>
             <list>
+              <ExternalProjectPojo>
+                <option name="name" value=":JWebServer" />
+                <option name="path" value="$PROJECT_DIR$/JWebServer" />
+              </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":api" />
                 <option name="path" value="$PROJECT_DIR$/api" />
@@ -504,6 +782,87 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/JWebServer">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes JVM resources 'main:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes JVM resources 'test:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/JWebServer" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/api">
           <value>
             <list>
@@ -593,7 +952,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5763730119960" />
+        <entry key="$PROJECT_DIR$" value="7205418584304" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -631,6 +990,13 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
+                  <entry key="$PROJECT_DIR$/JWebServer">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/JWebServer" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                   <entry key="$PROJECT_DIR$/api">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
@@ -638,6 +1004,24 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.json/json/20090211/c183aa3a2a6250293808bba12262c8920ce5a51c/json-20090211.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.13/631249c6055be15a1fab26b3c28a3e5c6f3d97e0/mysql-connector-java-5.1.13.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-jdbc/4.45/54847af6c6c3e54d043a79c96d2854da38224e97/ormlite-jdbc-4.45.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/4.45/3db7b73aecea723803e10b068777cf09ed42d4be/ormlite-core-4.45.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-http-all/2.3.22/48617bd68dcf4e226681c03dcaf6abae724e1e5/grizzly-http-all-2.3.22.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-http-server-core/2.3.22/c70bf579d3057ec4e06680ee0de037996bfcb400/grizzly-http-server-core-2.3.22.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-http-servlet/2.3.22/2864d3846d707bfd300522a181e7df3cd6637c5e/grizzly-http-servlet-2.3.22.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-comet/2.3.22/711203cd150382042b35529cf2bc60066057c917/grizzly-comet-2.3.22.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-websockets/2.3.22/9e225d2d72cc02e876889ef0d8e4e07f55e44e8e/grizzly-websockets-2.3.22.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-core/2.3.22/f7e0b54823e4734d38dad90fb9002d124bb4e600/grizzly-core-2.3.22.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-http-server/2.3.22/e2025c371bd8b28da44a1060be81afa77e3930eb/grizzly-http-server-2.3.22.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-http-ajp/2.3.22/9de796daebe6bd01273ed4c4ae7b9a00dcf88463/grizzly-http-ajp-2.3.22.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-spdy/2.3.22/5e8d11c24dffcd5c446b7d8cfef937faeb60bc9c/grizzly-spdy-2.3.22.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-npn-api/1.1/878cefd45e7053f4c06c2897b78555376a3e13c2/grizzly-npn-api-1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-http-server-multipart/2.3.22/3d50c07c5b1b8ed550481905eb7a1f1c8757a23e/grizzly-http-server-multipart-2.3.22.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-framework/2.3.22/f00e95f8868eb29c43fc5c99c5fc5f177e622bcf/grizzly-framework-2.3.22.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-http/2.3.22/1a1ec5d344c958dedbbe18c514c197ba63224dea/grizzly-http-2.3.22.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.grizzly/grizzly-portunif/2.3.22/2c21372fa8d08452c893b0930204cf9d4836a225/grizzly-portunif-2.3.22.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/api" />
@@ -773,11 +1157,23 @@
         <option value="$PROJECT_DIR$/EchoBot/src/main/java/com/jamejam/bot/Constants.java" />
         <option value="$PROJECT_DIR$/EchoBot/src/main/java/com/jamejam/bot/JBot.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/api/build.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/META-INF/application.xml" />
         <option value="$PROJECT_DIR$/JBot/build.gradle" />
+        <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/Object.java" />
+        <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/Models/Users.java" />
+        <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/Models/User.java" />
+        <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/config/Constants.java" />
+        <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/config/BConstants.java" />
+        <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/db/Db.java" />
         <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/Constants.java" />
+        <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/User.java" />
+        <option value="$PROJECT_DIR$/api/build.gradle" />
+        <option value="$PROJECT_DIR$/JWebServer/build.gradle" />
+        <option value="$PROJECT_DIR$/api/src/main/java/co/vandenham/telegram/botapi/Constants.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java" />
+        <option value="$PROJECT_DIR$/JWebServer/src/main/java/com/jamejam/bot/App.java" />
+        <option value="$PROJECT_DIR$/JWebServer/src/main/java/com/jamejam/api/App.java" />
         <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" />
       </list>
     </option>
@@ -855,6 +1251,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="JWebServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jamejam Telegram Bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JTeleBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JWebServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jamejam Telegram Bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JTeleBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="JBot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -889,6 +1329,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jamejam Telegram Bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JTeleBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jamejam Telegram Bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JTeleBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -896,7 +1380,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Android/TreadpoolApp/JavaApp" />
+    <property name="last_opened_file_path" value="F:/Source/ORMLite/ormlite-examples/android/HelloAndroidTwoDbs" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
@@ -913,14 +1397,19 @@
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="jamejam_telegram_bot" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Projects\Telegram\Java\JTeleBot" />
+      <recent name="F:\Projects\Telegram\Java\JTeleBot\JWebServer" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.jamejam.bot" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.JTeleBot [fatJar]">
-    <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Bot">
+    <configuration default="false" name="Bot" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.jamejam.bot.*" />
@@ -938,24 +1427,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="JBot" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="JTeleBot [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="jar" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="false" name="JTeleBot:JBot [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -1006,6 +1477,24 @@
         <option name="taskNames">
           <list>
             <option value="fatJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="JTeleBot:api [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/api" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -1271,20 +1760,41 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.App" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.JTeleBot [jar]" />
+    <configuration default="false" name="WebServer" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jamejam.bot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.jamejam.webserver.App" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JWebServer" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.WebServer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Bot" />
       <item index="2" class="java.lang.String" itemvalue="Gradle.JTeleBot:JBot [jar]" />
       <item index="3" class="java.lang.String" itemvalue="Gradle.JTeleBot [clean]" />
       <item index="4" class="java.lang.String" itemvalue="Gradle.JTeleBot [fatJar]" />
+      <item index="5" class="java.lang.String" itemvalue="Gradle.JTeleBot:api [build]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.App" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.JTeleBot [fatJar]" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.JTeleBot [clean]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.JTeleBot:JBot [jar]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.JTeleBot [jar]" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Bot" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.JTeleBot:api [build]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.JTeleBot [fatJar]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.JTeleBot [clean]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.JTeleBot:JBot [jar]" />
       </list>
     </recent_temporary>
   </component>
@@ -1300,7 +1810,8 @@
       <updated>1440858577763</updated>
       <workItem from="1440858591252" duration="6688000" />
       <workItem from="1440915829101" duration="20916000" />
-      <workItem from="1441005895473" duration="2057000" />
+      <workItem from="1441005895473" duration="5158000" />
+      <workItem from="1441093206474" duration="10752000" />
     </task>
     <task id="LOCAL-00001" summary="Complete Bot">
       <created>1440942542760</created>
@@ -1314,11 +1825,65 @@
       <option name="project" value="LOCAL" />
       <updated>1441009575992</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix some issue">
+      <created>1441010016032</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1441010016032</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix some issue">
+      <created>1441010164233</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1441010164233</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix some issue">
+      <created>1441010241409</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1441010241409</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix some issue">
+      <created>1441019236537</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1441019236538</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix some issue">
+      <created>1441019396464</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1441019396464</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix some issue">
+      <created>1441021989117</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1441021989117</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix some issue">
+      <created>1441022204892</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1441022204892</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fix some issue">
+      <created>1441022249064</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1441022249064</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'remotes/origin/mongoDb'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;JBot/src/main/java/com/jamejam/bot/App.java&#10;">
+      <created>1441024845686</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1441024845686</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29661000" />
+    <option name="totallyTimeSpent" value="48812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1328,28 +1893,28 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.4936034" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33853006" sideWeight="0.5191898" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33853006" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33853006" sideWeight="0.48081023" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33853006" sideWeight="0.47867805" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.48720682" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986637" sideWeight="0.48720682" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1366,11 +1931,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Complete Bot" />
     <MESSAGE value="Fix some issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix some issue" />
+    <MESSAGE value="Merge remote-tracking branch 'remotes/origin/mongoDb'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;JBot/src/main/java/com/jamejam/bot/App.java&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'remotes/origin/mongoDb'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;JBot/src/main/java/com/jamejam/bot/App.java&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="22" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1382,13 +1956,92 @@
     <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#3517#3518#0" expanded="true" />
-            <element signature="e#3568#3569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/db/Db.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1762#1763#0" expanded="true" />
+            <element signature="e#1809#1810#0" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
+            <marker date="1441123255173" expanded="true" signature="795:1006" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="259" column="7" selection-start-line="259" selection-start-column="7" selection-end-line="259" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1939#1940#0" expanded="false" />
+            <element signature="e#1971#1972#0" expanded="false" />
+            <element signature="e#2038#2039#0" expanded="false" />
+            <element signature="e#2065#2066#0" expanded="false" />
+            <element signature="e#2163#2164#0" expanded="false" />
+            <element signature="e#2190#2191#0" expanded="false" />
+            <element signature="e#2368#2369#0" expanded="false" />
+            <element signature="e#2395#2396#0" expanded="false" />
+            <element signature="e#2548#2549#0" expanded="false" />
+            <element signature="e#2582#2583#0" expanded="false" />
+            <element signature="e#2751#2752#0" expanded="false" />
+            <element signature="e#2785#2786#0" expanded="false" />
+            <element signature="e#2923#2924#0" expanded="false" />
+            <element signature="e#2960#2961#0" expanded="false" />
+            <element signature="e#3109#3110#0" expanded="false" />
+            <element signature="e#3136#3137#0" expanded="false" />
+            <element signature="e#3282#3283#0" expanded="false" />
+            <element signature="e#3310#3311#0" expanded="false" />
+            <element signature="e#3463#3464#0" expanded="false" />
+            <element signature="e#3494#3495#0" expanded="false" />
+            <element signature="e#3646#3647#0" expanded="false" />
+            <element signature="e#3674#3675#0" expanded="false" />
+            <element signature="e#3823#3824#0" expanded="false" />
+            <element signature="e#3853#3854#0" expanded="false" />
+            <element signature="e#3994#3995#0" expanded="false" />
+            <element signature="e#4022#4023#0" expanded="false" />
+            <element signature="e#4178#4179#0" expanded="false" />
+            <element signature="e#4208#4209#0" expanded="false" />
+            <element signature="e#4368#4369#0" expanded="false" />
+            <element signature="e#4399#4400#0" expanded="false" />
+            <element signature="e#4596#4597#0" expanded="false" />
+            <element signature="e#4637#4638#0" expanded="false" />
+            <element signature="e#4835#4836#0" expanded="false" />
+            <element signature="e#4877#4878#0" expanded="false" />
+            <element signature="e#5018#5019#0" expanded="false" />
+            <element signature="e#5053#5054#0" expanded="false" />
+            <element signature="e#5203#5204#0" expanded="false" />
+            <element signature="e#5238#5239#0" expanded="false" />
+            <element signature="e#5383#5384#0" expanded="false" />
+            <element signature="e#5421#5422#0" expanded="false" />
+            <element signature="e#5566#5567#0" expanded="false" />
+            <element signature="e#5605#5606#0" expanded="false" />
+            <element signature="e#5744#5745#0" expanded="false" />
+            <element signature="e#5774#5775#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1404,18 +2057,8 @@
     <entry file="file://$PROJECT_DIR$/api/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1441,10 +2084,48 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#3517#3518#0" expanded="true" />
-            <element signature="e#3568#3569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JBot/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1465,17 +2146,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/co/vandenham/telegram/botapi/DefaultHandler.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/DefaultHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
@@ -1490,29 +2161,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/co/vandenham/telegram/botapi/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/co/vandenham/telegram/botapi/RegistrableTelegramBot.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/RegistrableTelegramBot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/co/vandenham/telegram/botapi/DefaultHandler.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/DefaultHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/co/vandenham/telegram/botapi/requests/SendChatActionRequest.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendChatActionRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11486486">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -1527,27 +2190,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/co/vandenham/telegram/botapi/TelegramBot.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/TelegramBot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.3643265">
           <caret line="462" column="0" selection-start-line="462" selection-start-column="0" selection-end-line="462" selection-end-column="0" />
           <folding>
-            <element signature="e#19333#19334#0" expanded="false" />
+            <element signature="e#19151#19152#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/co/vandenham/telegram/botapi/HandlerNotifier.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/HandlerNotifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33206832">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/co/vandenham/telegram/botapi/types/ReplyKeyboardMarkup.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/ReplyKeyboardMarkup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33206832">
           <caret line="88" column="23" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="259" column="7" selection-start-line="259" selection-start-column="7" selection-end-line="259" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1939#1940#0" expanded="false" />
+            <element signature="e#1971#1972#0" expanded="false" />
+            <element signature="e#2038#2039#0" expanded="false" />
+            <element signature="e#2065#2066#0" expanded="false" />
+            <element signature="e#2163#2164#0" expanded="false" />
+            <element signature="e#2190#2191#0" expanded="false" />
+            <element signature="e#2368#2369#0" expanded="false" />
+            <element signature="e#2395#2396#0" expanded="false" />
+            <element signature="e#2548#2549#0" expanded="false" />
+            <element signature="e#2582#2583#0" expanded="false" />
+            <element signature="e#2751#2752#0" expanded="false" />
+            <element signature="e#2785#2786#0" expanded="false" />
+            <element signature="e#2923#2924#0" expanded="false" />
+            <element signature="e#2960#2961#0" expanded="false" />
+            <element signature="e#3109#3110#0" expanded="false" />
+            <element signature="e#3136#3137#0" expanded="false" />
+            <element signature="e#3282#3283#0" expanded="false" />
+            <element signature="e#3310#3311#0" expanded="false" />
+            <element signature="e#3463#3464#0" expanded="false" />
+            <element signature="e#3494#3495#0" expanded="false" />
+            <element signature="e#3646#3647#0" expanded="false" />
+            <element signature="e#3674#3675#0" expanded="false" />
+            <element signature="e#3823#3824#0" expanded="false" />
+            <element signature="e#3853#3854#0" expanded="false" />
+            <element signature="e#3994#3995#0" expanded="false" />
+            <element signature="e#4022#4023#0" expanded="false" />
+            <element signature="e#4178#4179#0" expanded="false" />
+            <element signature="e#4208#4209#0" expanded="false" />
+            <element signature="e#4368#4369#0" expanded="false" />
+            <element signature="e#4399#4400#0" expanded="false" />
+            <element signature="e#4596#4597#0" expanded="false" />
+            <element signature="e#4637#4638#0" expanded="false" />
+            <element signature="e#4835#4836#0" expanded="false" />
+            <element signature="e#4877#4878#0" expanded="false" />
+            <element signature="e#5018#5019#0" expanded="false" />
+            <element signature="e#5053#5054#0" expanded="false" />
+            <element signature="e#5203#5204#0" expanded="false" />
+            <element signature="e#5238#5239#0" expanded="false" />
+            <element signature="e#5383#5384#0" expanded="false" />
+            <element signature="e#5421#5422#0" expanded="false" />
+            <element signature="e#5566#5567#0" expanded="false" />
+            <element signature="e#5605#5606#0" expanded="false" />
+            <element signature="e#5744#5745#0" expanded="false" />
+            <element signature="e#5774#5775#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/db/Db.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Compressed/simpleorm/examples/simpleorm/examples/ADemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.87108">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1762#1763#0" expanded="true" />
+            <element signature="e#1809#1810#0" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
+            <marker date="1441123255173" expanded="true" signature="795:1006" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -1563,15 +2326,25 @@
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/build.gradle">
+    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1579,32 +2352,16 @@
     <entry file="file://$PROJECT_DIR$/JBot/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/Constants.java">
+    <entry file="file://$PROJECT_DIR$/JWebServer/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6908127">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#3517#3518#0" expanded="true" />
-            <element signature="e#3568#3569#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.39045936">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
