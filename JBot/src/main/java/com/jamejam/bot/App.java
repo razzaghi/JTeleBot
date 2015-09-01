@@ -1,6 +1,9 @@
 package com.jamejam.bot;
 
-import com.jamejam.api.*;
+import com.jamejam.api.CommandHandler;
+import com.jamejam.api.Constants;
+import com.jamejam.api.MessageHandler;
+import com.jamejam.api.TelegramBot;
 import com.jamejam.api.requests.OptionalArgs;
 import com.jamejam.api.types.Message;
 import com.jamejam.api.types.ReplyKeyboardMarkup;
@@ -19,7 +22,7 @@ public class App extends TelegramBot {
     private static final Logger log = Logger.getLogger(App.class.getName());
 
     public App(boolean async) {
-        super(com.jamejam.api.Constants.SBF_API_TOKEN, async);
+        super(Constants.SBF_API_TOKEN, async);
 
     }
 
