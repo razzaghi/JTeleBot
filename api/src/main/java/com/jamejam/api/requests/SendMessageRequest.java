@@ -1,6 +1,6 @@
 package com.jamejam.api.requests;
 
-import co.vandenham.telegram.botapi.types.Message;
+import com.jamejam.api.types.Message;
 
 import java.util.HashMap;
 import java.util.Map;

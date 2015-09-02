@@ -181,7 +181,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#sendaudio">https://core.telegram.org/bots/api#sendaudio</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam..api.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
      * @param audioFile Audio {@link File} to send
      * @param optionalArgs Any optional arguments for this method
      * @return The sent {@link Message}
@@ -212,7 +212,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#sendchataction">https://core.telegram.org/bots/api#sendchataction</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id.
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id.
      * @param chatAction The target {@link ChatAction}
      * @return True if the request was successful
      */
@@ -235,7 +235,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#senddocument">https://core.telegram.org/bots/api#senddocument</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
      * @param documentFile File to send
      * @param optionalArgs Any optional arguments
      * @return The sent {@link Message}
@@ -274,7 +274,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#sendlocation">https://core.telegram.org/bots/api#sendlocation</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
      * @param latitude Latitude of location
      * @param longitude Longitude of location
      * @param optionalArgs Any optional arguments
@@ -298,7 +298,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#sendmessage">https://core.telegram.org/bots/api#sendmessage</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
      * @param text Text of the message to be sent
      * @param optionalArgs Any optional arguments
      * @return the sent {@link Message}
@@ -319,7 +319,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#sendphoto">https://core.telegram.org/bots/api#sendphoto</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
      * @param photoFile Photo to send
      * @param optionalArgs Any optional arguments
      * @return The sent {@link Message}
@@ -358,7 +358,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#sendsticker">https://core.telegram.org/bots/api#sendsticker</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
      * @param stickerFile Sticker to send.
      * @param optionalArgs Any optional arguments
      * @return The sent {@link Message}
@@ -399,7 +399,7 @@ abstract public class TelegramBot {
      *
      * @see <a href="https://core.telegram.org/bots/api#sendvideo">https://core.telegram.org/bots/api#sendvideo</a>
      *
-     * @param chatId Unique identifier for the message recipient - {@link User} or {@link co.vandenham.telegram.botapi.types.GroupChat} id
+     * @param chatId Unique identifier for the message recipient - {@link User} or {@link com.jamejam.api.types.GroupChat} id
      * @param videoFile Video to send
      * @param optionalArgs Any optional arguments.
      * @return The sent {@link Message}

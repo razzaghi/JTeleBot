@@ -1,6 +1,6 @@
 package com.jamejam.api.requests;
 
-import co.vandenham.telegram.botapi.types.Update;
+import com.jamejam.api.types.Update;
 
 import java.util.HashMap;
 import java.util.List;

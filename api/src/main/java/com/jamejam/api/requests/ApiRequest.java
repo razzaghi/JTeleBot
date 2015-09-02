@@ -1,10 +1,10 @@
 package com.jamejam.api.requests;
 
-import co.vandenham.telegram.botapi.types.Message;
-import co.vandenham.telegram.botapi.types.Update;
-import co.vandenham.telegram.botapi.types.User;
-import co.vandenham.telegram.botapi.types.UserProfilePhotos;
 import com.google.gson.reflect.TypeToken;
+import com.jamejam.api.types.Message;
+import com.jamejam.api.types.Update;
+import com.jamejam.api.types.User;
+import com.jamejam.api.types.UserProfilePhotos;
 
 import java.io.File;
 import java.lang.reflect.Type;

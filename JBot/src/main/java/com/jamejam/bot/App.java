@@ -7,11 +7,18 @@ import com.jamejam.api.TelegramBot;
 import com.jamejam.api.requests.OptionalArgs;
 import com.jamejam.api.types.Message;
 import com.jamejam.api.types.ReplyKeyboardMarkup;
+import com.jamejam.bot.model.UserModel;
+import com.jamejam.bot.rest.SendMessage;
+import org.glassfish.grizzly.http.server.HttpServer;
+import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
+import org.glassfish.jersey.server.ResourceConfig;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import javax.ws.rs.core.UriBuilder;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.net.URI;
 import java.net.URL;
 import java.net.URLConnection;
 import java.nio.charset.Charset;
@@ -21,6 +28,8 @@ public class App extends TelegramBot {
 
     private static final Logger log = Logger.getLogger(App.class.getName());
 
+    public static volatile TelegramBot bot=null;
+
     public App(boolean async) {
         super(Constants.SBF_API_TOKEN, async);
 
@@ -28,11 +37,49 @@ public class App extends TelegramBot {
 
     public static void main(String[] args) {
         System.setProperty("file.encoding", "UTF-8");
-        TelegramBot bot = new App(false);
+
+        bot = new App(true);
         bot.start();
+
+        URI baseUri = UriBuilder.fromUri("http://0.0.0.0").port(8080).build();
+        ResourceConfig config = new ResourceConfig(SendMessage.class);
+        HttpServer server = GrizzlyHttpServerFactory.createHttpServer(baseUri, config);
+        try {
+            server.start();
+            System.out.println("Press any key to stop the server...");
+            System.in.read();
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
+
+
     }
 
-    @CommandHandler({"start", "help"})
+    public void subscribe(Message message){
+        UserModel userModel = new UserModel();
+
+        if(!userModel.userIsExist(message.getChat().getId())){
+            if(message.getChat().isGroupChat()){
+                userModel.setName(message.getChat().asGroupChat().getTitle());
+                userModel.setIsGroup(true);
+                userModel.setTeleId(message.getChat().getId());
+            }else{
+                userModel.setName(message.getChat().asUser().getFirstName() + " " +message.getChat().asUser().getLastName());
+                userModel.setTeleId(message.getChat().asUser().getId());
+                userModel.setIsGroup(false);
+            }
+
+            userModel.save(userModel);
+        }
+    }
+
+    @CommandHandler({"start"})
+    public void handleStart(Message message) {
+        subscribe(message);
+
+    }
+
+    @CommandHandler({"help"})
     public void handleHelp(Message message) {
         sendMessage(message.getChat().getId(), "سلام خوش آمدی ، با این رباط از آخرین اخبار روزنامه جام جم مطلع میشوید");
     }
@@ -43,6 +90,7 @@ public class App extends TelegramBot {
 
     @CommandHandler({"inews", "lnews", "menu","/inews", "/lnews", "/menu"})
     public void handleCommands(Message message) {
+        subscribe(message);
         String m = removeSlash(message.getText());
         switch (m) {
             case "lnews":
@@ -61,6 +109,7 @@ public class App extends TelegramBot {
 
     @MessageHandler(contentTypes = Message.Type.TEXT)
     public void handleTextMessage(Message message) {
+        subscribe(message);
         String m = removeSlash(message.getText());
         String menuCode = getMenuCode(message.getText());
         String serviceCode = getServiceCode(message.getText());
@@ -233,7 +282,14 @@ public class App extends TelegramBot {
     void sendText(Message message, String text) {
         OptionalArgs optionalArgs = new OptionalArgs();
         optionalArgs.disableWebPagePreview();
+        System.out.print(message.getChat().getId());
         sendMessage(message.getChat().getId(), text, optionalArgs);
+    }
+
+    void sendText(int id, String text) {
+        OptionalArgs optionalArgs = new OptionalArgs();
+        optionalArgs.disableWebPagePreview();
+        sendMessage(id, text, optionalArgs);
     }
 
     void sendCommandForMenu(Message message, String text, String[] reply_markup) {

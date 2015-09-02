@@ -26,7 +26,7 @@ public class ReplyKeyboardMarkup implements ReplyMarkup {
     @SerializedName("selective")
     private boolean selective;
 
-    private ReplyKeyboardMarkup(Builder builder) {
+    public ReplyKeyboardMarkup(Builder builder) {
         keyboard = builder.keyboard;
         resizeKeyboard = builder.resizeKeyboard;
         oneTimeKeyboard = builder.oneTimeKeyboard;

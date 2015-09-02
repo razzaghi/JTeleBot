@@ -7,6 +7,7 @@ import com.j256.ormlite.jdbc.JdbcConnectionSource;
 import com.j256.ormlite.support.ConnectionSource;
 import com.j256.ormlite.table.DatabaseTable;
 import com.jamejam.api.Constants;
+import com.jamejam.api.types.Message;
 
 import java.util.List;
 
@@ -14,13 +15,13 @@ import java.util.List;
  * Created by razzaghi on 01/09/2015.
  */
 @DatabaseTable(tableName = "users")
-public class User {
+public class UserModel {
+
+    @DatabaseField(generatedId = true)
+    private Integer id;
 
     @DatabaseField(id = true)
-    private String id;
-
-    @DatabaseField(id = true)
-    private Long teleId;
+    private Integer teleId;
 
     @DatabaseField(canBeNull = true)
     private String name;
@@ -28,14 +29,14 @@ public class User {
     @DatabaseField(canBeNull = true)
     private Boolean isGroup;
 
-    Dao<User, String> userDao;
+    Dao<UserModel, String> userDao;
     ConnectionSource connectionSource;
 
-    User() {
+    public UserModel() {
 
         try {
             connectionSource = new JdbcConnectionSource(Constants.DB_URL, Constants.JDBC_USERNAME, Constants.JDBC_PASSWORD);
-            userDao = DaoManager.createDao(connectionSource, User.class);
+            userDao = DaoManager.createDao(connectionSource, UserModel.class);
 
         } catch (Exception e) {
             System.out.print(e.getMessage());
@@ -43,10 +44,10 @@ public class User {
 
     }
 
-    public User(Long teleId, String name, Boolean isGroup) {
+    public UserModel(Integer teleId, String name, Boolean isGroup) {
         try {
             connectionSource = new JdbcConnectionSource(Constants.DB_URL, Constants.JDBC_USERNAME, Constants.JDBC_PASSWORD);
-            userDao = DaoManager.createDao(connectionSource, User.class);
+            userDao = DaoManager.createDao(connectionSource, UserModel.class);
             this.teleId = teleId;
             this.name = name;
             this.isGroup = isGroup;
@@ -55,11 +56,11 @@ public class User {
         }
     }
 
-    public Long getTeleId() {
+    public Integer getTeleId() {
         return teleId;
     }
 
-    public void setTeleId(Long teleId) {
+    public void setTeleId(Integer teleId) {
         this.teleId = teleId;
     }
 
@@ -79,7 +80,7 @@ public class User {
         this.name = name;
     }
 
-    public void save(User user) {
+    public void save(UserModel user) {
 
         try {
             userDao.create(user);
@@ -90,8 +91,8 @@ public class User {
 
     }
 
-    public List<User> getList() {
-        List<User> userList = null;
+    public List<UserModel> getList() {
+        List<UserModel> userList = null;
         try {
             userList = userDao.queryForAll();
         } catch (Exception e) {
@@ -101,6 +102,23 @@ public class User {
         return userList;
 
     }
+
+    public boolean userIsExist(int id) {
+        List<UserModel> userList = null;
+        try {
+            userList = userDao.queryForEq("teleId",id);
+        } catch (Exception e) {
+            System.out.print(e.getMessage());
+        }
+
+        if(userList!=null)
+            return true;
+        else
+            return false;
+
+    }
+
+
 
 
 }
