@@ -2,31 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655b81d0-390b-49bc-82d3-077c207fb897" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/ApiException.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/ApiException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/ApiRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/ApiRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/ChatContext.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/ChatContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/ForceReply.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/ForceReply.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/ForwardMessageRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/ForwardMessageRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/GetMeRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/GetMeRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/GetUpdatesRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/GetUpdatesRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/GetUserProfilePhotosRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/GetUserProfilePhotosRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/HandlerNotifier.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/HandlerNotifier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/Message.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/MessageHandler.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/MessageHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/OptionalArgs.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/OptionalArgs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/ReplyKeyboardHide.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/ReplyKeyboardHide.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/ReplyKeyboardMarkup.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/ReplyKeyboardMarkup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendAudioRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendAudioRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendDocumentRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendDocumentRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendLocationRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendLocationRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendMessageRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendMessageRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendPhotoRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendPhotoRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendStickerRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendStickerRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendVideoRequest.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendVideoRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/TelegramApi.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/TelegramApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/TelegramBot.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/TelegramBot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/User.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/package-info.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/types/package-info.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="telegram-bots-java-api.iws" />
@@ -207,8 +182,8 @@
       <file leaf-file-name="SendLocationRequest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendLocationRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14782609">
-              <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.47304347">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#323#324#0" expanded="true" />
@@ -266,7 +241,16 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#199#200#0" expanded="false" />
+                <element signature="e#229#230#0" expanded="false" />
+                <element signature="e#285#286#0" expanded="false" />
+                <element signature="e#324#325#0" expanded="false" />
+                <element signature="e#382#383#0" expanded="false" />
+                <element signature="e#409#410#0" expanded="false" />
+                <element signature="e#474#475#0" expanded="false" />
+                <element signature="e#514#515#0" expanded="false" />
+                <element signature="e#560#561#0" expanded="false" />
+                <element signature="e#599#600#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1708,7 +1692,7 @@
       <workItem from="1440858591252" duration="6688000" />
       <workItem from="1440915829101" duration="20916000" />
       <workItem from="1441005895473" duration="5158000" />
-      <workItem from="1441093206474" duration="15701000" />
+      <workItem from="1441093206474" duration="16518000" />
     </task>
     <task id="LOCAL-00001" summary="Complete Bot">
       <created>1440942542760</created>
@@ -1788,11 +1772,17 @@
       <option name="project" value="LOCAL" />
       <updated>1441123808205</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'remotes/origin/mongoDb'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;JBot/src/main/java/com/jamejam/bot/App.java&#10;">
+      <created>1441128419475</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1441128419475</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53761000" />
+    <option name="totallyTimeSpent" value="54578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1876,9 +1866,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2021,9 +2009,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2109,7 +2095,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2119,7 +2105,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2153,7 +2139,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2217,7 +2203,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#199#200#0" expanded="false" />
+            <element signature="e#229#230#0" expanded="false" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#324#325#0" expanded="false" />
+            <element signature="e#382#383#0" expanded="false" />
+            <element signature="e#409#410#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+            <element signature="e#514#515#0" expanded="false" />
+            <element signature="e#560#561#0" expanded="false" />
+            <element signature="e#599#600#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2271,8 +2266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/SendLocationRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14782609">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.47304347">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
