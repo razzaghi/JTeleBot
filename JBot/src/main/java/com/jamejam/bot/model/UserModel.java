@@ -18,36 +18,25 @@ import java.util.List;
 public class UserModel {
 
     @DatabaseField(generatedId = true)
-    private Integer id;
+    private int id;
 
-    @DatabaseField(id = true)
-    private Integer teleId;
+    @DatabaseField(index = true)
+    private int teleId;
 
     @DatabaseField(canBeNull = true)
     private String name;
 
     @DatabaseField(canBeNull = true)
-    private Boolean isGroup;
+    private boolean isGroup;
 
-    Dao<UserModel, String> userDao;
-    ConnectionSource connectionSource;
 
     public UserModel() {
-
-        try {
-            connectionSource = new JdbcConnectionSource(Constants.DB_URL, Constants.JDBC_USERNAME, Constants.JDBC_PASSWORD);
-            userDao = DaoManager.createDao(connectionSource, UserModel.class);
-
-        } catch (Exception e) {
-            System.out.print(e.getMessage());
-        }
 
     }
 
     public UserModel(Integer teleId, String name, Boolean isGroup) {
         try {
-            connectionSource = new JdbcConnectionSource(Constants.DB_URL, Constants.JDBC_USERNAME, Constants.JDBC_PASSWORD);
-            userDao = DaoManager.createDao(connectionSource, UserModel.class);
+
             this.teleId = teleId;
             this.name = name;
             this.isGroup = isGroup;
@@ -80,45 +69,13 @@ public class UserModel {
         this.name = name;
     }
 
-    public void save(UserModel user) {
-
-        try {
-            userDao.create(user);
-        } catch (Exception e) {
-            System.out.print(e.getMessage());
-        }
-
-
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(", ").append("teleId=").append(teleId);
+        sb.append(", ").append("name=").append(name);
+        sb.append(", ").append("isGroup=").append(isGroup);
+        return sb.toString();
     }
-
-    public List<UserModel> getList() {
-        List<UserModel> userList = null;
-        try {
-            userList = userDao.queryForAll();
-        } catch (Exception e) {
-            System.out.print(e.getMessage());
-        }
-
-        return userList;
-
-    }
-
-    public boolean userIsExist(int id) {
-        List<UserModel> userList = null;
-        try {
-            userList = userDao.queryForEq("teleId",id);
-        } catch (Exception e) {
-            System.out.print(e.getMessage());
-        }
-
-        if(userList!=null)
-            return true;
-        else
-            return false;
-
-    }
-
-
-
 
 }

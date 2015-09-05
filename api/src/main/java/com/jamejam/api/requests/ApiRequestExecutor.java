@@ -79,7 +79,7 @@ abstract public class ApiRequestExecutor {
             try {
                 return result.get();
             } catch (InterruptedException | ExecutionException e) {
-                e.printStackTrace();
+                System.out.print(e.getMessage());
             }
             return null;
         }

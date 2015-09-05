@@ -1,5 +1,8 @@
 package com.jamejam.bot;
 
+import com.j256.ormlite.dao.Dao;
+import com.j256.ormlite.dao.DaoManager;
+import com.j256.ormlite.jdbc.JdbcConnectionSource;
 import com.jamejam.api.CommandHandler;
 import com.jamejam.api.Constants;
 import com.jamejam.api.MessageHandler;
@@ -7,6 +10,7 @@ import com.jamejam.api.TelegramBot;
 import com.jamejam.api.requests.OptionalArgs;
 import com.jamejam.api.types.Message;
 import com.jamejam.api.types.ReplyKeyboardMarkup;
+import com.jamejam.bot.model.UserDao;
 import com.jamejam.bot.model.UserModel;
 import com.jamejam.bot.rest.SendMessage;
 import org.glassfish.grizzly.http.server.HttpServer;
@@ -28,48 +32,54 @@ public class App extends TelegramBot {
 
     private static final Logger log = Logger.getLogger(App.class.getName());
 
-    public static volatile TelegramBot bot=null;
+    public static volatile TelegramBot bot = null;
+
+    public static UserDao userDao;
 
     public App(boolean async) {
-        super(Constants.SBF_API_TOKEN, async);
+        super(Constants.JJO_API_TOKEN, async);
 
     }
 
     public static void main(String[] args) {
         System.setProperty("file.encoding", "UTF-8");
 
-        bot = new App(true);
-        bot.start();
-
-        URI baseUri = UriBuilder.fromUri("http://0.0.0.0").port(8080).build();
-        ResourceConfig config = new ResourceConfig(SendMessage.class);
-        HttpServer server = GrizzlyHttpServerFactory.createHttpServer(baseUri, config);
         try {
+
+            userDao = new UserDao();
+
+            bot = new App(true);
+            bot.start();
+
+            URI baseUri = UriBuilder.fromUri("http://0.0.0.0").port(8080).build();
+            ResourceConfig config = new ResourceConfig(SendMessage.class);
+            config.register(CORSResponseFilter.class);
+            HttpServer server = GrizzlyHttpServerFactory.createHttpServer(baseUri, config);
             server.start();
             System.out.println("Press any key to stop the server...");
             System.in.read();
         } catch (Exception e) {
-            System.err.println(e.getMessage());
+            System.out.print(e.getMessage());
         }
 
 
     }
 
-    public void subscribe(Message message){
+    public void subscribe(Message message) {
         UserModel userModel = new UserModel();
 
-        if(!userModel.userIsExist(message.getChat().getId())){
-            if(message.getChat().isGroupChat()){
+        if (!userDao.userIsExist(message.getChat().getId())) {
+            if (message.getChat().isGroupChat()) {
                 userModel.setName(message.getChat().asGroupChat().getTitle());
                 userModel.setIsGroup(true);
                 userModel.setTeleId(message.getChat().getId());
-            }else{
-                userModel.setName(message.getChat().asUser().getFirstName() + " " +message.getChat().asUser().getLastName());
+            } else {
+                userModel.setName(message.getChat().asUser().getFirstName() + " " + message.getChat().asUser().getLastName());
                 userModel.setTeleId(message.getChat().asUser().getId());
                 userModel.setIsGroup(false);
             }
 
-            userModel.save(userModel);
+            userDao.save(userModel);
         }
     }
 
@@ -88,7 +98,7 @@ public class App extends TelegramBot {
         return text.replaceAll("/", "");
     }
 
-    @CommandHandler({"inews", "lnews", "menu","/inews", "/lnews", "/menu"})
+    @CommandHandler({"inews", "lnews", "menu", "/inews", "/lnews", "/menu"})
     public void handleCommands(Message message) {
         subscribe(message);
         String m = removeSlash(message.getText());
@@ -115,11 +125,11 @@ public class App extends TelegramBot {
         String serviceCode = getServiceCode(message.getText());
 
         System.out.print(m + "\r\n");
-        if(!menuCode.equals("")){
+        if (!menuCode.equals("")) {
             handleMenu(message);
-        }else if(!serviceCode.equals("")){
+        } else if (!serviceCode.equals("")) {
             handleServices(message);
-        }else{
+        } else {
             fairText(message);
         }
     }
@@ -240,7 +250,7 @@ public class App extends TelegramBot {
             JSONArray jsonArray = new JSONArray(resutl);
 
             int count = jsonArray.length(); // get totalCount of all jsonObjects
-            if(count>0){
+            if (count > 0) {
                 for (int i = 0; i < count; i++) {   // iterate through jsonArray
                     JSONObject jsonObject = jsonArray.getJSONObject(i);  // get jsonObject @ i position
                     url = jsonObject.getString("Url").replace("www.jamejamonline", "jjo");
@@ -248,8 +258,8 @@ public class App extends TelegramBot {
                     String messageText = jsonObject.getString("Title") + "\r\n" + url;
                     sendText(message, messageText);
                 }
-            }else{
-                sendText(message,"اخباری یافت نشد ، لطفا چند دقیقه بعد تلاش کنید");
+            } else {
+                sendText(message, "اخباری یافت نشد ، لطفا چند دقیقه بعد تلاش کنید");
             }
 
         } catch (Exception e) {

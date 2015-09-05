@@ -3,11 +3,14 @@ package com.jamejam.bot.rest;
 import com.jamejam.api.TelegramBot;
 import com.jamejam.api.requests.OptionalArgs;
 import com.jamejam.bot.App;
+import com.jamejam.bot.model.UserDao;
+import com.jamejam.bot.model.UserModel;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
+import java.util.List;
 
 /**
  * Created by razzaghi on 02/09/2015.
@@ -24,19 +27,15 @@ public class SendMessage {
     public String send(@PathParam("title") String title,@PathParam("text") String text) {
 
 
-//        UserModel userModel= new UserModel();
-//        List<UserModel> userList= new ArrayList<>();
-//        userList = userModel.getList();
-        OptionalArgs optionalArgs = new OptionalArgs();
-        optionalArgs.disableWebPagePreview();
-        App.bot.sendMessage(102490145, text, optionalArgs);
+        UserDao userDao = new UserDao();
+        List<UserModel> userModelList = userDao.getList();
+        for (UserModel userModel : userModelList) {
+            OptionalArgs optionalArgs = new OptionalArgs();
+            optionalArgs.disableWebPagePreview();
+            String body = "@jjoBot \r\n"+title + "\r\n" +text;
+            App.bot.sendMessage(userModel.getTeleId(), body, optionalArgs);
 
-/*
-        for (UserModel user : userList) {
-            telegramBot.sendMessage(102490145, text, optionalArgs);
         }
-*/
-        System.out.print(title+"\r\n"+text);
 
         return title+" -> "+text+"\r\n";
     }
