@@ -41,5 +41,7 @@
     <orderEntry type="library" exported="" name="Gradle: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet-core:2.21" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet:2.21" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.8.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.codehaus.jackson:jackson-core-asl:1.8.5" level="project" />
   </component>
 </module>

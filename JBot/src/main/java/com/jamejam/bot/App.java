@@ -37,7 +37,7 @@ public class App extends TelegramBot {
     public static UserDao userDao;
 
     public App(boolean async) {
-        super(Constants.JJO_API_TOKEN, async);
+        super(Constants.SBF_API_TOKEN, async);
 
     }
 
