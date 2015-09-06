@@ -61,7 +61,7 @@ public class SendMessage {
             for (UserModel userModel : userModelList) {
                 OptionalArgs optionalArgs = new OptionalArgs();
                 optionalArgs.disableWebPagePreview();
-                String body = "@jjoBot \r\n"+sentMessage.getTitle() + "\r\n" +sentMessage.getText();
+                String body = "@jjoBot \r\n"+sentMessage.getTitle() + "\r\n\r\n" +sentMessage.getText();
                 App.bot.sendMessage(userModel.getTeleId(), body, optionalArgs);
 
             }

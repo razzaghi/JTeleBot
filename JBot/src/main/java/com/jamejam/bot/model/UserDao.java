@@ -22,7 +22,6 @@ public class UserDao {
             dao = DaoManager.createDao(connectionSource, UserModel.class);
         }catch (Exception e){
             System.out.print("TEST"+e.getMessage());
-
         }
 
     }
