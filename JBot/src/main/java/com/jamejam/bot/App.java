@@ -68,6 +68,7 @@ public class App extends TelegramBot {
     public void subscribe(Message message) {
         UserModel userModel = new UserModel();
 
+        System.out.print(message.getChat().asGroupChat().getId());
         if (!userDao.userIsExist(message.getChat().getId())) {
             if (message.getChat().isGroupChat()) {
                 userModel.setName(message.getChat().asGroupChat().getTitle());
@@ -160,7 +161,7 @@ public class App extends TelegramBot {
         switch (serviceCode) {
             case "-1":
 //                sendCommandForMenu(message, "لطفا گزینه مورد نظر را انتخاب کنید", Constants.menuItemLbl);
-                sendCommandForMenu(message, "", com.jamejam.api.Constants.menuItemLbl);
+                sendCommandForMenu(message, "منوی بات", Constants.menuItemLbl);
                 break;
             default:
                 getLastFromService(message, serviceCode);
