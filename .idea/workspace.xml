@@ -168,10 +168,12 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49804688">
-              <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.5644531">
+              <caret line="166" column="9" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5584#5585#0" expanded="true" />
+                <element signature="e#5635#5636#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1693,7 +1695,7 @@
       <workItem from="1440915829101" duration="20916000" />
       <workItem from="1441005895473" duration="5158000" />
       <workItem from="1441093206474" duration="16518000" />
-      <workItem from="1441194277215" duration="27883000" />
+      <workItem from="1441194277215" duration="28012000" />
     </task>
     <task id="LOCAL-00001" summary="Complete Bot">
       <created>1440942542760</created>
@@ -1803,11 +1805,17 @@
       <option name="project" value="LOCAL" />
       <updated>1441534992257</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Merge remote-tracking branch 'remotes/origin/mongoDb'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;JBot/src/main/java/com/jamejam/bot/App.java&#10;">
+      <created>1441611178739</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1441611178739</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82461000" />
+    <option name="totallyTimeSpent" value="82590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1862,14 +1870,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java</url>
-          <line>159</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
@@ -1885,6 +1885,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5584#5585#0" expanded="true" />
+            <element signature="e#5635#5636#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1927,6 +1929,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5584#5585#0" expanded="true" />
+            <element signature="e#5635#5636#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2342,10 +2346,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49804688">
-          <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.5644531">
+          <caret line="166" column="9" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5584#5585#0" expanded="true" />
+            <element signature="e#5635#5636#0" expanded="true" />
           </folding>
         </state>
       </provider>

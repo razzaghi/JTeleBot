@@ -160,7 +160,6 @@ public class App extends TelegramBot {
         String serviceCode = getServiceCode(message.getText());
         switch (serviceCode) {
             case "-1":
-//                sendCommandForMenu(message, "لطفا گزینه مورد نظر را انتخاب کنید", Constants.menuItemLbl);
                 sendCommandForMenu(message, "منوی بات", Constants.menuItemLbl);
                 break;
             default:
@@ -172,12 +171,9 @@ public class App extends TelegramBot {
     public void handleText(Message message) {
         System.out.print(message.getText());
     }
-//        sendText(message, "لطفا از منو انتخاب نمایید");
-//    }
 
     public void fairText(Message message) {
         System.out.print(message.getText());
-//     sendText(message, "لطفا از منو انتخاب نمایید");
     }
 
     String getServiceCode(String t) {
