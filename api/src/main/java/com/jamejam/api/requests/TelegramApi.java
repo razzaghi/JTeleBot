@@ -46,6 +46,7 @@ public final class TelegramApi {
 
             return readAll(connection.getInputStream());
         } catch (IOException exception) {
+            System.out.print(exception.getMessage());
             throw new ApiException(method, exception);
         }
     }
@@ -69,6 +70,7 @@ public final class TelegramApi {
 
             return readAll(connection.getInputStream());
         } catch (IOException exception) {
+            System.out.print(exception.getMessage());
             throw new ApiException(method, exception);
         }
     }
@@ -84,6 +86,7 @@ public final class TelegramApi {
 
             return multipartUtility.finish();
         } catch (IOException e) {
+            System.out.print(e.getMessage());
             throw new ApiException(method, e);
         }
     }
@@ -92,6 +95,7 @@ public final class TelegramApi {
         try {
             return (HttpsURLConnection) new URL(String.format(API_URL, token, methodName)).openConnection();
         } catch (IOException e) {
+            System.out.print(e.getMessage());
             throw new ApiException(methodName, e);
         }
     }
