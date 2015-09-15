@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655b81d0-390b-49bc-82d3-077c207fb897" name="Default" comment="Add jomejamOnlin bot api token">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" afterPath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" />
+    <list default="true" id="655b81d0-390b-49bc-82d3-077c207fb897" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/rest/SendMessage.java" afterPath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/rest/SendMessage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="telegram-bots-java-api.iws" />
@@ -173,11 +173,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4076655">
-              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,12 +185,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendMessage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SendMessage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/rest/SendMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-              <folding />
+            <state vertical-scroll-proportion="0.70383275">
+              <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,6 +211,16 @@
                 <element signature="e#1315#1316#0" expanded="false" />
                 <element signature="e#1353#1354#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentMessage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/SentMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -896,12 +908,12 @@
         <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/CORSResponseFilter.java" />
         <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/SentMessage.java" />
         <option value="$PROJECT_DIR$/api/build.gradle" />
-        <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/rest/SendMessage.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/TelegramBot.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/TelegramApi.java" />
         <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/UserDao.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java" />
         <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" />
+        <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/rest/SendMessage.java" />
       </list>
     </option>
   </component>
@@ -1592,7 +1604,7 @@
       <workItem from="1441005895473" duration="5158000" />
       <workItem from="1441093206474" duration="16518000" />
       <workItem from="1441194277215" duration="30032000" />
-      <workItem from="1442040996278" duration="5419000" />
+      <workItem from="1442040996278" duration="6746000" />
     </task>
     <task id="LOCAL-00001" summary="Complete Bot">
       <created>1440942542760</created>
@@ -1756,11 +1768,17 @@
       <option name="project" value="LOCAL" />
       <updated>1442305830450</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="change webserver port to 8090">
+      <created>1442306095916</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1442306095916</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90029000" />
+    <option name="totallyTimeSpent" value="91356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1817,7 +1835,8 @@
     <MESSAGE value="Add Error Handleling" />
     <MESSAGE value="bugfix in error handeling" />
     <MESSAGE value="Add jomejamOnlin bot api token" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add jomejamOnlin bot api token" />
+    <MESSAGE value="change webserver port to 8090" />
+    <option name="LAST_COMMIT_MESSAGE" value="change webserver port to 8090" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1842,6 +1861,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1866,6 +1886,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2104,6 +2125,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2166,14 +2188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/SentMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/UserModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2187,14 +2201,6 @@
             <element signature="e#1315#1316#0" expanded="false" />
             <element signature="e#1353#1354#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/rest/SendMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2279,8 +2285,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4076655">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/SentMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/rest/SendMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70383275">
+          <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
