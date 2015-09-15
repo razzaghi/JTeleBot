@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655b81d0-390b-49bc-82d3-077c207fb897" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java" />
+    <list default="true" id="655b81d0-390b-49bc-82d3-077c207fb897" name="Default" comment="Add jomejamOnlin bot api token">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" afterPath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="telegram-bots-java-api.iws" />
@@ -173,11 +173,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.4076655">
+              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -225,18 +225,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TelegramBot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/TelegramBot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="470" column="9" selection-start-line="470" selection-start-column="9" selection-end-line="470" selection-end-column="9" />
-              <folding>
-                <element signature="e#20489#20498#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TelegramApi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/TelegramApi.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -260,11 +248,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29616725">
-              <caret line="10" column="100" selection-start-line="10" selection-start-column="100" selection-end-line="10" selection-end-column="100" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -283,7 +271,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="mongoDb" />
       </map>
     </option>
   </component>
@@ -911,9 +899,9 @@
         <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/rest/SendMessage.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/TelegramBot.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/TelegramApi.java" />
-        <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" />
         <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/UserDao.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java" />
+        <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" />
       </list>
     </option>
   </component>
@@ -1604,7 +1592,7 @@
       <workItem from="1441005895473" duration="5158000" />
       <workItem from="1441093206474" duration="16518000" />
       <workItem from="1441194277215" duration="30032000" />
-      <workItem from="1442040996278" duration="5145000" />
+      <workItem from="1442040996278" duration="5419000" />
     </task>
     <task id="LOCAL-00001" summary="Complete Bot">
       <created>1440942542760</created>
@@ -1762,11 +1750,17 @@
       <option name="project" value="LOCAL" />
       <updated>1442305733046</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add jomejamOnlin bot api token">
+      <created>1442305830450</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1442305830450</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89755000" />
+    <option name="totallyTimeSpent" value="90029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1781,6 +1775,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33853006" sideWeight="0.47867805" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2238806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1793,13 +1788,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5821138" sideWeight="0.48720682" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5821138" sideWeight="0.48720682" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33853006" sideWeight="0.47867805" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1822,7 +1816,8 @@
     <MESSAGE value="Change some value" />
     <MESSAGE value="Add Error Handleling" />
     <MESSAGE value="bugfix in error handeling" />
-    <option name="LAST_COMMIT_MESSAGE" value="bugfix in error handeling" />
+    <MESSAGE value="Add jomejamOnlin bot api token" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add jomejamOnlin bot api token" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2246,16 +2241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/TelegramBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="470" column="9" selection-start-line="470" selection-start-column="9" selection-end-line="470" selection-end-column="9" />
-          <folding>
-            <element signature="e#20489#20498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/4.45/b4e2ced3a336685b43133f6f3f9206ea473b003a/ormlite-core-4.45-sources.jar!/com/j256/ormlite/dao/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33275262">
@@ -2264,12 +2249,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/TelegramBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.510453">
+          <caret line="405" column="5" selection-start-line="405" selection-start-column="5" selection-end-line="405" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#20489#20498#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2284,11 +2277,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java">
+    <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29616725">
-          <caret line="10" column="100" selection-start-line="10" selection-start-column="100" selection-end-line="10" selection-end-column="100" />
-          <folding />
+        <state vertical-scroll-proportion="0.4076655">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
