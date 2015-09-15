@@ -8,6 +8,7 @@ import java.util.HashMap;
 public class Constants {
 
     public final  static String JJO_API_TOKEN = "93764156:AAEBzTVmJu51IF-jdONSKFNFEMK5DkgjMWQ";
+    public final  static String JJOONLINE_API_TOKEN = "129182577:AAEGZ_Rjux8SS-a3fWDy6Z7L-oh6_WcBvcs";
     public final  static String SBF_API_TOKEN = "98066991:AAGdW3DZMZukIBy4UxapfYQ4rexYkVmoeHM";
 
     public final  static String serviceIp = "10.0.9.151";

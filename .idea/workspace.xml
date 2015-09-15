@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655b81d0-390b-49bc-82d3-077c207fb897" name="Default" comment="Add Error Handleling">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" afterPath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/UserDao.java" afterPath="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/UserDao.java" />
+    <list default="true" id="655b81d0-390b-49bc-82d3-077c207fb897" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="telegram-bots-java-api.iws" />
@@ -214,11 +213,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4965157">
-              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,11 +260,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.29616725">
+              <caret line="10" column="100" selection-start-line="10" selection-start-column="100" selection-end-line="10" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -910,11 +909,11 @@
         <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/SentMessage.java" />
         <option value="$PROJECT_DIR$/api/build.gradle" />
         <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/rest/SendMessage.java" />
-        <option value="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/TelegramBot.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/requests/TelegramApi.java" />
         <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/App.java" />
         <option value="$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/UserDao.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java" />
       </list>
     </option>
   </component>
@@ -1111,6 +1110,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jamejam Telegram Bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JTeleBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jamejam Telegram Bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JTeleBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1561,7 +1604,7 @@
       <workItem from="1441005895473" duration="5158000" />
       <workItem from="1441093206474" duration="16518000" />
       <workItem from="1441194277215" duration="30032000" />
-      <workItem from="1442040996278" duration="5053000" />
+      <workItem from="1442040996278" duration="5145000" />
     </task>
     <task id="LOCAL-00001" summary="Complete Bot">
       <created>1440942542760</created>
@@ -1713,11 +1756,17 @@
       <option name="project" value="LOCAL" />
       <updated>1442133030161</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="bugfix in error handeling">
+      <created>1442305733046</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1442305733046</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89663000" />
+    <option name="totallyTimeSpent" value="89755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1772,7 +1821,8 @@
     <MESSAGE value="Change Access token from jjoBot" />
     <MESSAGE value="Change some value" />
     <MESSAGE value="Add Error Handleling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Error Handleling" />
+    <MESSAGE value="bugfix in error handeling" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugfix in error handeling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2169,14 +2219,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33275262">
@@ -2234,11 +2276,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JBot/src/main/java/com/jamejam/bot/model/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4965157">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/jamejam/api/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29616725">
+          <caret line="10" column="100" selection-start-line="10" selection-start-column="100" selection-end-line="10" selection-end-column="100" />
+          <folding />
         </state>
       </provider>
     </entry>
