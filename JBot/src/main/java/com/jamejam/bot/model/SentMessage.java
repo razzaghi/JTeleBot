@@ -5,17 +5,8 @@ package com.jamejam.bot.model;
  */
 public class SentMessage {
 
-    public String title;
-
     public String text;
 
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
 
     public String getText() {
         return text;
@@ -28,7 +19,6 @@ public class SentMessage {
     @Override
     public String toString() {
         return "{" +
-                "title:'" + title + '\'' +
                 ", text:'" + text + '\'' +
                 '}';
     }

@@ -6,9 +6,7 @@ import com.jamejam.api.TelegramBot;
 import com.jamejam.api.requests.OptionalArgs;
 import com.jamejam.api.types.Message;
 import com.jamejam.bot.App;
-import com.jamejam.bot.model.SentMessage;
-import com.jamejam.bot.model.UserDao;
-import com.jamejam.bot.model.UserModel;
+import com.jamejam.bot.model.*;
 import jdk.nashorn.internal.parser.JSONParser;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.json.JSONObject;
@@ -46,6 +44,14 @@ public class SendMessage {
         return title+" -> "+text+"\r\n";
     }
 
+    @GET
+    @Produces("text/html"+ ";charset=utf-8")
+    @Path("/getTodayCount")
+    public String getTodayCount() {
+        MessageDao messageDao = new MessageDao();
+        return String.valueOf(messageDao.getTodayMessageCount());
+    }
+
     @POST
     @Consumes(MediaType.APPLICATION_JSON+ ";charset=utf-8")
     @Produces("text/html"+ ";charset=utf-8")
@@ -57,11 +63,15 @@ public class SendMessage {
             SentMessage sentMessage = new ObjectMapper().readValue(obj, SentMessage.class);
 
             UserDao userDao = new UserDao();
+            MessageDao messageDao=new MessageDao();
+            MessageModel messageModel=new MessageModel();
+            messageModel.setMessage(sentMessage.getText());
+            messageDao.save(messageModel);
             List<UserModel> userModelList = userDao.getList();
             for (UserModel userModel : userModelList) {
                 OptionalArgs optionalArgs = new OptionalArgs();
                 optionalArgs.disableWebPagePreview();
-                String body = (sentMessage.getTitle()==null)?"":sentMessage.getTitle() + "\r\n\r\n" +sentMessage.getText();
+                String body = sentMessage.getText();
                 App.bot.sendMessage(userModel.getTeleId(), body, optionalArgs);
 
             }
