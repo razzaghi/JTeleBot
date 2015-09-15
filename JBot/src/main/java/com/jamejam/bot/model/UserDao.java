@@ -57,6 +57,8 @@ public class UserDao {
             System.out.print(e.getMessage());
         }
 
+        if(userList==null)
+            return false;
         assert userList != null;
         return userList.size() > 0;
 

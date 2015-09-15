@@ -68,20 +68,25 @@ public class App extends TelegramBot {
     public void subscribe(Message message) {
         UserModel userModel = new UserModel();
 
-        System.out.print(message.getChat().asGroupChat().getId());
-        if (!userDao.userIsExist(message.getChat().getId())) {
-            if (message.getChat().isGroupChat()) {
-                userModel.setName(message.getChat().asGroupChat().getTitle());
-                userModel.setIsGroup(true);
-                userModel.setTeleId(message.getChat().getId());
-            } else {
-                userModel.setName(message.getChat().asUser().getFirstName() + " " + message.getChat().asUser().getLastName());
-                userModel.setTeleId(message.getChat().asUser().getId());
-                userModel.setIsGroup(false);
-            }
+        try {
+            System.out.print(message.getChat().asGroupChat().getId());
+            if (!userDao.userIsExist(message.getChat().getId())) {
+                if (message.getChat().isGroupChat()) {
+                    userModel.setName(message.getChat().asGroupChat().getTitle());
+                    userModel.setIsGroup(true);
+                    userModel.setTeleId(message.getChat().getId());
+                } else {
+                    userModel.setName(message.getChat().asUser().getFirstName() + " " + message.getChat().asUser().getLastName());
+                    userModel.setTeleId(message.getChat().asUser().getId());
+                    userModel.setIsGroup(false);
+                }
 
-            userDao.save(userModel);
+                userDao.save(userModel);
+            }
+        } catch (Exception e) {
+            System.out.print(e.getMessage());
         }
+
     }
 
     @CommandHandler({"start"})
